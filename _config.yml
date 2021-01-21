@@ -96,7 +96,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments:
+        provider: "disqus"
+        disqus:
+          shortname: "blog-uniony-me"
       share: true
       related: true
   # _pages
