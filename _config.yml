@@ -114,7 +114,10 @@ tag_archive:
   type: liquid
   path: /tags/
 
+repository: unionyy/blog
+
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "blog-uniony-me"
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
