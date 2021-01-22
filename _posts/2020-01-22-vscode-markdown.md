@@ -1,5 +1,6 @@
 ---
 title: "Visual Studio Code에서 Markdown(.md) 미리보기"
+excerpt_separator: "<!--more-->"
 layout: single
 categories:
   - Coding
@@ -17,7 +18,7 @@ Jekyll을 이용하여 GitHub Page를 만들 때
 Markdown(.md)을 사용합니다.
 
 이를 작성과 동시에 미리보고자 합니다.
-
+<!--more-->
 ## 단축키 `ctrl+k` `v`
 Markdown 파일이 열린 상태에서
 

@@ -1,5 +1,6 @@
 ---
 title: "[subtree] GitHub Repository 합치기"
+excerpt_separator: "<!--more-->"
 layout: single
 categories:
   - Coding
@@ -10,18 +11,19 @@ tags:
   - repository
   - commit log
 ---
-## 문제점
-코딩 실습들을 개별 Repository에서 진행하면서 문제가 생겼습니다.
-* 실습용 repository들이 쌓여서 지저분해보인다.
-* fork해와서 진행한 실습들은 Contribution Graph에 표시되지 않는다.
-
-## 해결방안
-### subtree
 `git subtree add`를 이용하면,
 
 하나의 repository 안에 다른 repository를 그대로 복사해올 수 있습니다.
 
 이때, 기존의 commit log를 함께 복사해올 수 있습니다!
+<!--more-->
+
+## 문제점
+코딩 실습들을 개별 Repository에서 진행하면서 문제가 생겼습니다.
+* 실습용 repository들이 쌓여서 지저분해보인다.
+* fork해와서 진행한 실습들은 Contribution Graph에 표시되지 않는다.
+
+## git subtree add
 
 ```
 git subtree add --prefix=(해당 Repository 하위의 디렉터리 구조) (옮겨올 Repository 주소) (옮겨올 Repository의 branch) 
