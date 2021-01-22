@@ -5,8 +5,8 @@ minimal_mistakes_skin     : "dark" # "air", "aqua", "contrast", "dark", "dirt", 
 # Site settings
 title                     : 유년시절
 title_separator           : "-"
-subtitle                  : uniony's blog # site tagline that appears below site title in masthead
-email                     : kimuniony@gmail.com
+subtitle                  : # site tagline that appears below site title in masthead
+email                     : kyh4323@gmail.com
 description               : >- # this means to ignore newlines until "baseurl:"
   유년이의 블로그. Uniony's blog
 # Write an awesome description for your new site here. You can edit this
