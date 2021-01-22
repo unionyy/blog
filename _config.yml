@@ -93,13 +93,16 @@ defaults:
       path: ""
       type: posts
     values:
-      classes: wide
+      #classes: wide
       layout: single
       author_profile: true
       read_time: true
       comments: true
       share: false
       related: true
+      toc: true
+      toc_label: "~On this Page~"
+      toc_icon: "cog"
   # _pages
   - scope:
       path: "_pages"
