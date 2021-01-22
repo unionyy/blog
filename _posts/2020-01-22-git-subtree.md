@@ -54,5 +54,5 @@ repository를 복사할 때 만들어진 commit 하나만 보여집니다.
 찾을 내용이 생기면 repository 전체 히스토리를 참고해야 할 듯 합니다.
 
 ## Reference
-* [Git Repository 합치기 (commit log 유지) - subtree 이용](http://yeoseon.kr/git-repository-habcigi-commit-log-yuji-subtree-iyong/)
-* [Git subtree: the alternative to Git submodule](https://www.atlassian.com/git/tutorials/git-subtree)
+* [Git Repository 합치기 (commit log 유지) - subtree 이용](http://yeoseon.kr/git-repository-habcigi-commit-log-yuji-subtree-iyong/){:target="_blank"}
+* [Git subtree: the alternative to Git submodule](https://www.atlassian.com/git/tutorials/git-subtree){:target="_blank"}

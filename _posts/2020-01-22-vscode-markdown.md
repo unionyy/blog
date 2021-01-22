@@ -28,7 +28,7 @@ Markdown 파일이 열린 상태에서
 ![shortcut](/assets/post-images/markdown0.PNG)
 
 ## GitHub 스타일 마크다운 적용
-[이곳](https://github.com/aliencube/markdownpad-github)에서 markdownpad-github.css 파일을 받아 프로젝트 폴더 안에 넣어줍니다.
+[이곳](https://github.com/aliencube/markdownpad-github){:target="_blank"}에서 markdownpad-github.css 파일을 받아 프로젝트 폴더 안에 넣어줍니다.
 
 그리고 Settings > Extensions > Markdown에서
 
@@ -40,6 +40,6 @@ GitHub Style Mardown 미리보기 적용 완료.
 
 
 ## Reference
-* [Visual Studio Code 에서 깃헙 스타일 마크다운 사용하기](https://blog.aliencube.org/ko/2016/07/06/markdown-in-visual-studio-code/)
-* [Could not load 'markdown.styles': *.css](https://github.com/microsoft/vscode/issues/77290)
-* [GitHub/aliencube/markdownpad-github](https://github.com/aliencube/markdownpad-github)
+* [Visual Studio Code 에서 깃헙 스타일 마크다운 사용하기](https://blog.aliencube.org/ko/2016/07/06/markdown-in-visual-studio-code/){:target="_blank"}
+* [Could not load 'markdown.styles': *.css](https://github.com/microsoft/vscode/issues/77290){:target="_blank"}
+* [GitHub/aliencube/markdownpad-github](https://github.com/aliencube/markdownpad-github){:target="_blank"}
