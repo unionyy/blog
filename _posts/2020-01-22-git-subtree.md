@@ -1,5 +1,6 @@
 ---
 title: "[subtree] GitHub Repository 합치기"
+layout: post
 categories:
   - Coding
   - GitHub
@@ -30,14 +31,14 @@ git subtree add --prefix=nodejs-practice https://github.com/unionyy/nodejs-pract
 기존 repository의 commit log를 없애려면 `--squash` 옵션을 마지막에 추가하면 됩니다.
 # 결과
 * 하나의 repository(unionyy/practic)의 하위 디렉토리 안에 각각의 repository가 복사되었습니다.
-![success](..\assets\post-images\subtree0.PNG)
+![success](\assets\post-images\subtree0.PNG)
 
 * 기존의 commit log들도 성공적으로 옮겨졌습니다.
-![commit](..\assets\post-images\subtree1.PNG)
+![commit](\assets\post-images\subtree1.PNG)
 
 # 단점
 * 각각의 파일의 commit history를 확인하기 어려워집니다.
-![bad](..\assets\post-images\subtree2.PNG)
+![bad](\assets\post-images\subtree2.PNG)
 개별 파일 또는 디렉토리의 commit history에 repository를 복사하는 commit 하나만 보여집니다.
 찾을 내용이 생기면 repository 전체 히스토리를 참고해야 할 듯 합니다.
 
