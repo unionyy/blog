@@ -99,6 +99,7 @@ defaults:
       type: posts
     values:
       #classes: wide
+      show_date: true
       layout: single
       author_profile: true
       read_time: true
