@@ -36,14 +36,14 @@ git subtree add --prefix=nodejs-practice https://github.com/unionyy/nodejs-pract
 
 ## 결과
 하나의 repository의 하위 디렉토리 안에 각각의 repository가 복사되었습니다.
-![success](https://blog.uniony.me/assets/post-images/subtree0.PNG)
+![success](/assets/post-images/subtree0.PNG)
 
 기존의 commit log들도 성공적으로 옮겨졌습니다.
-![commit](https://blog.uniony.me/assets/post-images/subtree1.PNG)
+![commit](/assets/post-images/subtree1.PNG)
 
 ## 단점
 각각의 파일의 commit history를 확인하기 어려워집니다.
-![bad](https://blog.uniony.me/assets/post-images/subtree2.PNG)
+![bad](/assets/post-images/subtree2.PNG)
 
 개별 파일 또는 디렉토리의 commit history가 제대로 보여지지 않습니다.
 
