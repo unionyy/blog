@@ -107,8 +107,7 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
-      toc_label: "~On this Page~"
-      toc_icon: "cog"
+      toc_label: "목차"
   # _pages
   - scope:
       path: "_pages"
