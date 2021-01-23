@@ -34,7 +34,7 @@ search_full_content       : true # true, false (default)
 
 # Analytics
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
     tracking_id: "G-5VLYJWQNP2"
     anonymize_ip: false # default
