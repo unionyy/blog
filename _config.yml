@@ -39,6 +39,12 @@ analytics:
     tracking_id: "G-5VLYJWQNP2"
     anonymize_ip: false # default
 
+# SEO Related
+google_site_verification : "RJmqWBTSut2QXBuWlz8a_IpkN799k1bXsxtK3ex1eyY"
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
 # Build settings
 markdown: kramdown
 
