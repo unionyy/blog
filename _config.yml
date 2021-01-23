@@ -3,17 +3,31 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin     : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site settings
-title                     : 유년시절
+locale                    : "kr-KR"
+title                     : "유년시절"
+masthead_title            : "유년시절" # overrides the website title displayed in the masthead, use " " for no title
+subtitle                  : # site tagline that appears below site title in masthead
+name                      : "유년"
 title_separator           : "-"
 subtitle                  : # site tagline that appears below site title in masthead
-email                     : kyh4323@gmail.com
+email                     : "kyh4323@gmail.com"
 description               : >- # this means to ignore newlines until "baseurl:"
   유년이의 블로그. Uniony's blog
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
-twitter_username          : 
-github_username           : unionyy
+url                       : "https://blog.uniony.me"
+repository                : "unionyy/blog"
+github_username           : "unionyy"
+
+teaser                    : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                      : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+words_per_minute          : 100
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "photon-dark" # "github-dark"
+    issue_term: "pathname"
 
 search                    : true # true, false (default)
 search_full_content       : true # true, false (default)
@@ -92,7 +106,7 @@ defaults:
       show_date: true
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: false
       related: true
@@ -114,10 +128,3 @@ tag_archive:
   type: liquid
   path: /tags/
 
-repository: unionyy/blog
-
-comments:
-  provider: "utterances"
-  utterances:
-    theme: "photon-dark" # "github-dark"
-    issue_term: "pathname"
