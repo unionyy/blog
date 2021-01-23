@@ -19,7 +19,7 @@ Node.js를 이용하면 웹 크롤링을 간편하게 해볼 수 있습니다.
 
 네이버 메인페이지에서 언론사 리스트를 가져와 출력해보고자 합니다.
 
-![naver](/assets/post-images/crawler0.PNG)
+![naver](/assets/post-images/crawler0.png)
 
 <!--more-->
 ## Crawler 모듈 설치
@@ -76,11 +76,11 @@ c.queue('http://www.naver.com');
 
 밑의 이미지와 같은 위치에서 검사를 해주었습니다.
 
-![check](/assets/post-images/crawler1.PNG)
+![check](/assets/post-images/crawler1.png)
 
 html코드 위에서 마우스를 움직이면서 타겟이 어떤 태그 안에 있는지 찾아줍니다.
 
-![html](/assets/post-images/crawler2.PNG)
+![html](/assets/post-images/crawler2.png)
 
 언론사의 리스트는 `"thumb_area"`의 클래스 이름을 가진 `div`태그 안에 있었습니다.
 
@@ -101,7 +101,7 @@ const $bodyList = $("div.thumb_area").children("div.thumb_box");
 
 `a` 태그 내부의 `img`태그의 `alt` 속성에 정의되어 있었습니다.
 
-![html2](/assets/post-images/crawler3.PNG)
+![html2](/assets/post-images/crawler3.png)
 
 역시나 jQuery를 이용하여 원하는 정보를 추출해 줍니다.
 
@@ -117,7 +117,7 @@ $bodyList.each(function(i, elem) {
 ```javascript
 console.log(newsList);
 ```
-![result](/assets/post-images/crawler4.PNG)
+![result](/assets/post-images/crawler4.png)
 
 성공!
 
