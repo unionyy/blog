@@ -43,7 +43,7 @@ analytics:
 google_site_verification : "RJmqWBTSut2QXBuWlz8a_IpkN799k1bXsxtK3ex1eyY"
 bing_site_verification   :
 yandex_site_verification :
-naver_site_verification  :
+naver_site_verification  : "71c5f3d91511cd63b03839074629bcb3feb95bac"
 
 # Build settings
 markdown: kramdown
