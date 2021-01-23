@@ -119,5 +119,5 @@ repository: unionyy/blog
 comments:
   provider: "utterances"
   utterances:
-    theme: "github-light" # "github-dark"
+    theme: "github-dark" # "github-dark"
     issue_term: "pathname"
