@@ -31,6 +31,14 @@ comments:
 
 search                    : true # true, false (default)
 search_full_content       : true # true, false (default)
+
+# Analytics
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-5VLYJWQNP2"
+    anonymize_ip: false # default
+
 # Build settings
 markdown: kramdown
 
@@ -70,9 +78,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "유년"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "bloging..."
+  name    : "유년"
+  avatar  : "/assets/images/bio-photo.jpg"
+  bio     : "Software Engineer"
+  location: "Somewhere, Korea"
   links:
     - label: "Blog"
       icon: "fas fa-fw fa-link"
