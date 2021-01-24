@@ -9,6 +9,7 @@ tags:
   - nodejs
   - crawling
 ---
+---
 Node.js를 이용하면 웹 크롤링을 간편하게 해볼 수 있습니다.
 
 저는 [crawler](https://www.npmjs.com/package/crawler){:target="_blank"}모듈을 사용하여 네이버 홈페이지를 크롤링해보겠습니다.
