@@ -5,9 +5,11 @@
 /* Colors */
 $background-color: #ffffff !default;
 $text-color: #24292e !default;
+$border-color: #eaecef !default;
 
 
 $primary-color: #0366d6 !default;
+$focus-color: $primary-color !default;
 
 /* links */
 $link-color: #0366d6 !default;

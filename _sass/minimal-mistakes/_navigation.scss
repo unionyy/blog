@@ -282,6 +282,7 @@
     a {
       margin: 0;
       padding: 10px 20px;
+      color: $text-color;
       font-size: $type-size-5;
 
       &:hover {
@@ -318,7 +319,7 @@
 
     li {
       display: block;
-      border-bottom: 1px solid $border-color;
+      border-bottom: 2px solid $border-color;
 
       &:last-child {
         border-bottom: none;
