@@ -177,12 +177,12 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
+  //background: $background-color;
 
   a {
     display: block;
     margin: 0 1rem;
-    color: $masthead-link-color;
+    color: $master-text-color;
     text-decoration: none;
     -webkit-transition: none;
     transition: none;
@@ -197,10 +197,11 @@
     }
 
     &.site-title {
-      margin-left: 0;
+      //font-size: $type-size-4; sizing at masthead
+      margin-left: 0px;
     }
   }
-  
+
   img{
     -webkit-transition: none;
     transition: none;
@@ -217,6 +218,7 @@
   }
 
   .visible-links {
+    font-size: $type-size-5;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -237,13 +239,14 @@
     a {
       position: relative;
 
+      // Underline Animation
       &:before {
         content: "";
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: $primary-color;
+        height: 2px;
+        background: $masthead-link-color-hover;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;

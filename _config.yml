@@ -1,9 +1,9 @@
 # Theme Settings
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin     : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin     : "github" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site settings
-locale                    : "kr-KR"
+locale                    : "ko-KR"
 title                     : "유년시절"
 masthead_title            : "유년시절" # overrides the website title displayed in the masthead, use " " for no title
 subtitle                  : # site tagline that appears below site title in masthead

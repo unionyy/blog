@@ -4,12 +4,14 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 50px solid $background-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+
+  background-color: $master-color;
 
   &__inner-wrap {
     @include clearfix;
@@ -30,6 +32,7 @@
     }
 
     nav {
+      background-color: $master-color;
       z-index: 10;
     }
 
@@ -44,6 +47,7 @@
 }
 
 .site-title {
+  font-size: $type-size-4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
