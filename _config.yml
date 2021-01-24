@@ -26,7 +26,7 @@ words_per_minute          : 100
 comments:
   provider: "utterances"
   utterances:
-    theme: "photon-dark" # "github-dark"
+    theme: "github-light" # "photon-dark" # "github-dark"
     issue_term: "pathname"
 
 search                    : true # true, false (default)
