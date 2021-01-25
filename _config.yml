@@ -84,10 +84,11 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name    : "유년"
-  avatar  : "/assets/images/bio-photo.jpg"
-  bio     : "Software Engineer"
-  location: "Somewhere, Korea"
+  name              : "유년"
+  avatar            : "/assets/images/bio-photo.jpg"
+  bio               : "Software Engineer"
+  location          : "Somewhere, Korea"
+  email             : "kyh4323@gmail.com"
   links:
     - label: "Blog"
       icon: "fas fa-fw fa-link"
@@ -98,6 +99,9 @@ author:
     - label: "yoonyeony"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/yoonyeony/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "kyh4323@gmail.com"
 
 footer:
   links:
