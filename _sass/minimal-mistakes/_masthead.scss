@@ -27,9 +27,19 @@
     justify-content: space-between;
     font-family: $sans-serif-narrow;
 
-    @include breakpoint($x-large) {
-      max-width: $max-width;
-    }
+    // // Resize padding
+    // //-webkit-transition: $global-transition;
+    // transition: $global-transition;
+    // @include breakpoint($medium) {
+    //   //-webkit-transition: $global-transition;
+    //   transition: $global-transition;
+    //   padding: 1em;
+    // }
+
+    // Wide masthead
+    // @include breakpoint($x-large) {
+    //   max-width: $max-width;
+    // }
 
     nav {
       background-color: $master-color;
