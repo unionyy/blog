@@ -3,12 +3,12 @@ title: "jQuery 설치 없이 사용하기[CDN]"
 excerpt_separator: "<!--more-->"
 layout: single
 categories:
-  - Coding
   - JavaScript
 tags:
-  - javascript
-  - jquery
-  - cdn
+  - JavaScript
+  - jQuery
+  - CDN
+permalink: /js/jquery-cdn/
 ---
 ---
 여러 회사에서 제공하는 jQuery CDN을 이용하면 jQuery를 쉽고 빠르게 이용할 수 있습니다.

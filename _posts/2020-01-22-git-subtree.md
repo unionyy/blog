@@ -3,13 +3,13 @@ title: "[subtree] GitHub Repository 합치기"
 excerpt_separator: "<!--more-->"
 layout: single
 categories:
-  - Coding
   - GitHub
 tags:
-  - github
-  - subtree
-  - repository
-  - commit log
+  - GitHub
+  - Subtree
+  - Repository
+  - Commit Log
+permalink: /github/subtree/
 ---
 ---
 `git subtree add`를 이용하면,

@@ -3,11 +3,11 @@ title: "Node.js로 네이버 크롤링하기(맛보기)"
 excerpt_separator: "<!--more-->"
 layout: single
 categories:
-  - Coding
   - Node.js
 tags:
-  - nodejs
-  - crawling
+  - Node.js
+  - Crawling
+permalink: /nodejs/crawler/
 ---
 ---
 Node.js를 이용하면 웹 크롤링을 간편하게 해볼 수 있습니다.

@@ -2,11 +2,13 @@
 title: "Riot API 사용법 - 계정 생성 & 소환사 정보 가져오기"
 excerpt_separator: "<!--more-->"
 layout: single
+date: 2021-01-31T16:34:30+09:00
 categories:
   - LoL
 tags:
   - Riot API
   - League of Legend
+permalink: /lol/riot-api/
 ---
 ---
 리그오브레전드를 해봤다면 OP.GG, YOUR.GG 등 전적검색 사이트를 이용해본 경험이 있을 겁니다. 전적검색 사이트들은 Riot에서 제공하는 Riot API를 이용하여 유저들의 정보를 가져옵니다.

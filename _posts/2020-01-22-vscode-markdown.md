@@ -3,12 +3,12 @@ title: "Visual Studio Code에서 Markdown(.md) 미리보기"
 excerpt_separator: "<!--more-->"
 layout: single
 categories:
-  - Coding
   - Visual Studio Code
 tags:
-  - vscode
-  - markdown
-  - github
+  - Visual Studio Code
+  - Markdown
+  - GitHub
+permalink: /vscode/markdown/
 ---
 ---
 GitHub에 REAMDME 파일을 작성할 때
