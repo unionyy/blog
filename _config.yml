@@ -47,7 +47,7 @@ naver_site_verification  : "71c5f3d91511cd63b03839074629bcb3feb95bac"
 
 # Build settings
 markdown: kramdown
-
+ 
 # Outputting
 permalink: /:slugified_categories/:title/
 paginate: 5 # amount of posts to show
