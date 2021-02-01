@@ -15,7 +15,7 @@ description               : >- # this means to ignore newlines until "baseurl:"
   유년이의 블로그. Uniony's blog
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
-# Google search results) and in your feed.xml site description.
+# Google search results) and in your feed.xml site description. 
 url                       : "https://blog.uniony.me"
 repository                : "unionyy/blog"
 github_username           : "unionyy"
