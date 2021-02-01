@@ -82,7 +82,7 @@ redirect_to:  /vscode/markdown/
 
 리다이렉트가 필요한 링크마다 리다이렉트 링크를 만들어 주었습니다.
 
-![redirect.md](/assets/post-images/redirect/mds.png)
+![redirect.md](/assets/post-images/redirect/redirect-mds.png)
 
 ## 결과
 이제 구글서치콘솔에 등록되어있는 포스트 링크로 접속했을 때에 새로운 페이지로 리다이렉트될 것입니다. 또한 시간이 지나면, 구글크롤링봇이 해당 페이지가 리다이렉트된 것을 파악하고 기존 링크로 만들어진 색인을 새로운 링크로 옮길 것입니다.
