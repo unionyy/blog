@@ -57,6 +57,16 @@ PRODUCTION API KEY를 선택한 경우, 접근 가능하고 본인이 관리할 
 
 2주정도 기다리면 Riot에서 제 신청서와 제품을 확인한 뒤에 승인여부를 결정하고 알려준다고 합니다.
 
+---
+
+## 신청결과
+3-4일 뒤에 결과가 나왔고, 승인되었습니다 ㅎㅎ
+
+관련 내용은 새로운 포스트로 올려두었습니다.
+
+* [Riot API - Production API Key 승인!](/lol/production-key-approved/){:target="_blank"}
+
+
 ## Reference
 * [DEVELOPER-RIOTGAMES](https://developer.riotgames.com/){:target="_blank"}
 * [LoLog.me - 롤 전적검색 사이트](/lol/lolog-me/){:target="_blank"}
