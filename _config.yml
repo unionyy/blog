@@ -86,7 +86,7 @@ plugins:
 author:
   name              : "유년"
   avatar            : "/assets/images/bio-photo.jpg"
-  bio               : "Software Engineer"
+  bio               : "개발자"
   location          : "Somewhere, Korea"
   # email             : "kyh4323@gmail.com"
   links:
