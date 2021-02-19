@@ -21,6 +21,7 @@ repository                : "unionyy/blog"
 github_username           : "unionyy"
 
 teaser                    : /assets/images/teaser.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+og_image                  : /assets/images/teaser.png
 logo                      : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 words_per_minute          : 100
 comments:
