@@ -20,7 +20,7 @@ url                       : "https://blog.uniony.me"
 repository                : "unionyy/blog"
 github_username           : "unionyy"
 
-teaser                    : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                    : /assets/images/teaser.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                      : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 words_per_minute          : 100
 comments:
