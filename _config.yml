@@ -20,7 +20,8 @@ url                       : "https://blog.uniony.me"
 repository                : "unionyy/blog"
 github_username           : "unionyy"
 
-teaser                    : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                    : /assets/images/teaser.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+og_image                  : /assets/images/teaser.png
 logo                      : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 words_per_minute          : 100
 comments:
@@ -86,7 +87,7 @@ plugins:
 author:
   name              : "유년"
   avatar            : "/assets/images/bio-photo.jpg"
-  bio               : "Software Engineer"
+  bio               : "개발자"
   location          : "Somewhere, Korea"
   # email             : "kyh4323@gmail.com"
   links:

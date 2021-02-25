@@ -7,6 +7,7 @@ categories:
   - LoL
 tags:
   - Riot API
+  - LoLog.me
   - League of Legend
 permalink: /lol/production-key/
 ---
