@@ -17,6 +17,7 @@
   // }
 
   @include breakpoint($large) {
+    font-size: 0.8em;
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
     opacity: 0.75;
@@ -75,6 +76,7 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
+    font-size: 0.8em;
     position: absolute;
     top: 0;
     right: 0;
