@@ -27,6 +27,9 @@ Node.js기반 디스코드 봇을 위한 롤 전적 검색 모듈을 배포하�
 ## NPM
 * [LoL Discord](https://www.npmjs.com/package/lol-discord){:target="_blank"}
 
+## GitHub
+* [LoL Discord](https://github.com/unionyy/lol-discord){:target="_blank"}
+
 ## 앵무새봇으로 체험해보기
 * [앵무새봇](https://koreanbots.dev/bots/795333228662751253){:target="_blank"}
 
