@@ -16,6 +16,8 @@ permalink: /lol/production-key-approved/
 신청서를 제출하고 승인이 되기까지 3-4일 정도 시간이 걸렸습니다. 생각보다 빠르게 돼서 놀랐네요 ㅎㅎ
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## 이전 포스트
 * [LoLog.me - 롤 전적검색 사이트](/lol/lolog-me/){:target="_blank"}
 
@@ -34,6 +36,8 @@ Riot에서 이런 메시지도 왔습니다.
 ![message](/assets/post-images/riotapi-approve/msg.png)
 
 API Key도 승인을 받았으니, 이제 웹사이트를 하루빨리 완성하는 일만 남았습니다. 아직 갈길이 멉니다...ㅠ
+
+{% include ad-contents.html %}
 
 ## Reference
 * [DEVELOPER-RIOTGAMES](https://developer.riotgames.com/){:target="_blank"}

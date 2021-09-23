@@ -15,6 +15,8 @@ permalink: /lol/production-key/
 Riot API로 공개서비스를 제공하기 위해서는 제품을 등록하고, Production API Key를 발급받아야 합니다. 
 <!--more-->
 
+{% include ad-contents.html %}
+
 이전 포스트, [LoLog.me - 롤 전적검색 사이트](/lol/lolog-me/){:target="_blank"}에서 계획한 대로 [LoLog.me](https://lolog.me/){:target="_blank"} 웹서버를 Riot API를 사용하는 방식으로 변경하였습니다. YOUR.GG를 크롤링하던 코드를 모두 제거하고 Riot API 모듈을 만들어 적용시켰습니다.
 
 현재는 이것저것 생각했던 기능을 추가해보고 있는 중입니다. 아직 웹서비스를 정식으로 출시할 단계는 아니지만, 제품이 승인되고 Production Key가 승인되기 까지 2주정도 시간이 걸린다고 하여 미리 신청해 두었습니다. (반려된다면 다시 신청해야겠죠 ㅠ)
@@ -23,7 +25,7 @@ Riot API로 공개서비스를 제공하기 위해서는 제품을 등록하고,
 ## 계정생성 및 테스트
 [Riot API 사용법 - 계정 생성 & 소환사 정보 가져오기](/lol/riot-api/){:target="_blank"} 이전 포스팅에 자세히 설명해두었습니다.
 
-
+{% include ad-contents.html %}
 
 ## 제품 등록 - PRODUCT TYPE 선택하기
 [라이엇 개발자 페이지](https://developer.riotgames.com/){:target="_blank"}에 로그인하고 대쉬보드에서 `REGISTER PRODUCT` 버튼을 클릭합니다.
@@ -47,6 +49,8 @@ PRODUCT TYPE 선택화면에서 원하는 타입을 선택합니다.
 제품명, 제품 설명, 웹사이트 주소 등을 입력하고 제출하면 됩니다.
 
 PRODUCTION API KEY를 선택한 경우, 접근 가능하고 본인이 관리할 수 있는 웹사이트를 제출해야 합니다. 제출 이후, 주어지는 코드를 `/웹사이트.주소/riot.txt` 경로에 올려 웹사이트를 인증하게 됩니다.
+
+{% include ad-contents.html %}
 
 ## 기다림...
 
@@ -72,3 +76,5 @@ PRODUCTION API KEY를 선택한 경우, 접근 가능하고 본인이 관리할 
 * [DEVELOPER-RIOTGAMES](https://developer.riotgames.com/){:target="_blank"}
 * [LoLog.me - 롤 전적검색 사이트](/lol/lolog-me/){:target="_blank"}
 * [Riot API 사용법 - 계정 생성 & 소환사 정보 가져오기](/lol/riot-api/){:target="_blank"}
+
+{% include ad-contents.html %}

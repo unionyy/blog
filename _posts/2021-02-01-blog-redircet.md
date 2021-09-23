@@ -17,6 +17,8 @@ permalink: /blog/redirect/
 
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## Jekyll 포스트 url 변경하기
 Jekyll 페이지의 url을 변경하는 방법은 간단합니다.
 ```
@@ -33,6 +35,8 @@ permalink: /:categories/:title/
 저는 개별 포스트마다 제가 원하는 링크를 설정해주었습니다.
 
 ![permalink](/assets/post-images/redirect/permalink.png)
+
+{% include ad-contents.html %}
 
 ## 기존 링크 Redirect
 포스트 url을 바꿔버렸으니, 기존의 url로 접속시 404 Not Found 에러가 발생합니다.
@@ -84,6 +88,8 @@ redirect_to:  /vscode/markdown/
 
 ![redirect.md](/assets/post-images/redirect/redirect-mds.png)
 
+{% include ad-contents.html %}
+
 ## 결과
 이제 구글서치콘솔에 등록되어있는 포스트 링크로 접속했을 때에 새로운 페이지로 리다이렉트될 것입니다. 또한 시간이 지나면, 구글크롤링봇이 해당 페이지가 리다이렉트된 것을 파악하고 기존 링크로 만들어진 색인을 새로운 링크로 옮길 것입니다.
 
@@ -94,3 +100,5 @@ redirect_to:  /vscode/markdown/
 * [How to redirect URLs on Jekyll site hosted on GitHub Pages](https://superdevresources.com/redirects-jekyll-github-pages/){:target="_blank"}
 * [What is the best approach for redirection of old pages in Jekyll and GitHub Pages?](https://stackoverflow.com/questions/10178304/what-is-the-best-approach-for-redirection-of-old-pages-in-jekyll-and-github-page){:target="_blank"}
 * [Google Warning: Using The Meta Refresh Tag Is Bad Practice](https://www.weboptimizers.com.au/google-warning-meta-refresh/){:target="_blank"}
+
+{% include ad-contents.html %}

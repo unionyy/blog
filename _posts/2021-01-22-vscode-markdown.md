@@ -19,6 +19,9 @@ Markdown(.md)을 사용합니다.
 
 이를 작성과 동시에 미리보고자 합니다.
 <!--more-->
+
+{% include ad-contents.html %}
+
 ## 단축키 `ctrl+k` `v`
 Markdown 파일이 열린 상태에서
 
@@ -43,3 +46,5 @@ GitHub Style Mardown 미리보기 적용 완료.
 * [Visual Studio Code 에서 깃헙 스타일 마크다운 사용하기](https://blog.aliencube.org/ko/2016/07/06/markdown-in-visual-studio-code/){:target="_blank"}
 * [Could not load 'markdown.styles': *.css](https://github.com/microsoft/vscode/issues/77290){:target="_blank"}
 * [GitHub/aliencube/markdownpad-github](https://github.com/aliencube/markdownpad-github){:target="_blank"}
+
+{% include ad-contents.html %}

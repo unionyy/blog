@@ -16,6 +16,8 @@ Node.js를 이용하면 웹 크롤링을 간편하게 해볼 수 있습니다.
 
 [GitHub에서 코드 미리보기](https://github.com/unionyy/practice/tree/main/crawlcrawl){:target="_blank"}
 
+{% include ad-contents.html %}
+
 ## 목표
 
 네이버 메인페이지에서 언론사 리스트를 가져와 출력해보고자 합니다.
@@ -68,6 +70,8 @@ c.queue('http://www.naver.com');
 
 코드를 수정하여 언론사 목록을 출력해봅시다!
 
+{% include ad-contents.html %}
+
 ## 크롤링 타겟 파악
 웹페이지의 크롤링하고자 하는 부분에서
 
@@ -113,6 +117,8 @@ $bodyList.each(function(i, elem) {
   });
 ```
 
+{% include ad-contents.html %}
+
 ## 결과
 콘솔에 결과를 출력해 줍니다.
 ```javascript
@@ -155,6 +161,7 @@ var c = new Crawler({
 c.queue('http://www.naver.com');
 ```
 
+{% include ad-contents.html %}
 
 ## Reference
 * [crawler](https://www.npmjs.com/package/crawler){:target="_blank"}

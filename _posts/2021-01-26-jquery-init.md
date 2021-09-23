@@ -13,6 +13,10 @@ permalink: /js/jquery-cdn/
 ---
 여러 회사에서 제공하는 jQuery CDN을 이용하면 jQuery를 쉽고 빠르게 이용할 수 있습니다.
 
+<!--more-->
+
+{% include ad-contents.html %}
+
 ## CDN (Content Delivery Network)
 
 CDN은 인터넷 컨텐츠 (html, javascript 등)를 제공하기 위해 전세계에 분산되어 있는 서버입니다.
@@ -20,8 +24,6 @@ CDN은 인터넷 컨텐츠 (html, javascript 등)를 제공하기 위해 전세�
 CDN을 이용하면 클라이언트(브라우저)는 가장 빠른 서버에서 데이터를 다운로드할 수 있습니다.
 
 또한 CDN을 이용하면 jQuery와 같이 여러 웹페이지에서 동일하게 사용되는 코드들을 재사용할 수 있습니다.
-
-<!--more-->
 
 ## jQuery CDN의 장점
 
@@ -37,6 +39,8 @@ CDN을 이용하면 클라이언트(브라우저)는 가장 빠른 서버에서 
 ```
 위의 html 태그를 jQuery를 사용하고자하는 웹페이지(html)에 추가해주기만 하면 됩니다. (2020/01/26 기준 최신버전 3.5.1)
 
+{% include ad-contents.html %}
+
 ### 사용법
 
 jQuery 공식 [다운로드](https://jquery.com/download/){:target="_blank"} 페이지에서 스크롤을 내려 **Using jQuery with a CDN** 항목을 찾습니다.
@@ -50,3 +54,5 @@ StackPath에서 제공하는 jQuery 공식 CDN이나 구글 등의 다른 회사
 ## Reference
 * [Downloading jQuery](https://jquery.com/download/){:target="_blank"}
 * [What is a CDN?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/){:target="_blank"}
+
+{% include ad-contents.html %}

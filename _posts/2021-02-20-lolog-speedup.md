@@ -15,6 +15,8 @@ permalink: /mysql/insert-multi/
 MySQL에서 여러개의 INSERT 쿼리를 통합시켜 하나의 쿼리문으로 만들면 성능이 대폭 향상됩니다. (하나의 table에 대한 쿼리문일 경우)
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## MySQL INSERT 쿼리 문법
 ```sql
 INSERT INTO tbl_name (a,b,c)
@@ -37,6 +39,8 @@ INSERT 쿼리를 게임 단위에서 Riot API 단위(최대 100경기) 로 변�
 
 동일한 일을 처리하는데 걸리는 시간이 74ms로 측정되었습니다... 엄청난 수치의 성능향상입니다. 전송되는 쿼리의 갯수는 1/100로 줄었지만 쿼리 하나 하나의 처리량이 많아졌기 때문에 100배의 성능향상을 기대하지도 않았습니다. 그러나 무슨이유에서인지 100배 이상의 성능향상이 있었습니다.
 
+{% include ad-contents.html %}
+
 ## 가설
 
 곰곰이 생각해본 결과 제가 생각해낸 원인은 INDEX 입니다. 저는 게임데이터에서 user_id와 timestamp(게임시작시간)을 결합하여 INDEX를 만들고, 이를 PRIMARY KEY 로 설정했습니다. 그래서 게임데이터가 하나씩 INSERT 될 때마다 INDEX가 업데이트 되고, 같은 user_id를 가진 데이터가 늘어남에 따라 INSERT 쿼리를 처리하는 데에 걸리는 시간이 점점 늘어나게 되는 것입니다.
@@ -47,6 +51,8 @@ INSERT 쿼리를 게임 단위에서 Riot API 단위(최대 100경기) 로 변�
 
 ## Reference
 * [13.2.6 INSERT Statement](https://dev.mysql.com/doc/refman/8.0/en/insert.html){:target="_blank"}
+
+{% include ad-contents.html %}
 
 ---
 ## 추가1

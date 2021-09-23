@@ -14,6 +14,8 @@ permalink: /js/frappe-charts/
 [Frappe Charts](https://frappe.io/charts){:target="_blank"}는 SVG 차트를 쉽게 만들게 해주는 오픈소스 모듈입니다. 여러가지 종류의 깔끔한 그래프들을 간편하게 만들 수 있습니다.
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## CDN을 사용하여 설치하지 않고 사용하기
 ```html
 <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.5.6/dist/frappe-charts.min.iife.js"></script>
@@ -89,6 +91,8 @@ CDN에 대한 설명은 jQuery 관련 포스트를 참고하세요.
 
 ![line chart](/assets/post-images/frappe-charts/line.png)
 
+{% include ad-contents.html %}
+
 ## 그래프 숨기기
 
 Frappe Charts는 아직까지 유저가 원하는 데이터만을 보여주는 기능을 제공하지 않습니다. (제가 찾지 못한 것이라면 알려주세요 ㅠ)
@@ -125,6 +129,8 @@ CSS의 display 옵션을 이용해서 각각의 데이터를 보여주거나 없
 <button onclick="Hide('dataset-2')">Player 3</button>
 ```
 ![toggle](/assets/post-images/frappe-charts/toggle.png)
+
+{% include ad-contents.html %}
 
 ## 히트맵, GitHub Contribution Graph
 
@@ -236,6 +242,8 @@ Frappe Charts는 히트맵 그래프 기능을 제공합니다. 이를 이용하
     </body>
 </html>
 ```
+
+{% include ad-contents.html %}
 
 ## Reference
 * [Frappe Charts - Docs](https://frappe.io/charts/docs){:target="_blank"}

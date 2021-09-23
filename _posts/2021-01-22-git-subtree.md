@@ -18,6 +18,7 @@ permalink: /github/subtree/
 
 이때, 기존의 commit log를 함께 복사해올 수 있습니다!
 <!--more-->
+{% include ad-contents.html %}
 
 ## 문제점
 코딩 실습들을 개별 Repository에서 진행하면서 문제가 생겼습니다.
@@ -44,6 +45,8 @@ git subtree add --prefix=nodejs-practice https://github.com/unionyy/nodejs-pract
 기존의 commit log들도 성공적으로 옮겨졌습니다.
 ![commit](/assets/post-images/subtree1.PNG)
 
+{% include ad-contents.html %}
+
 ## 단점
 각각의 파일의 commit history를 확인하기 어려워집니다.
 ![bad](/assets/post-images/subtree2.PNG)
@@ -57,3 +60,5 @@ repository를 복사할 때 만들어진 commit 하나만 보여집니다.
 ## Reference
 * [Git Repository 합치기 (commit log 유지) - subtree 이용](http://yeoseon.kr/git-repository-habcigi-commit-log-yuji-subtree-iyong/){:target="_blank"}
 * [Git subtree: the alternative to Git submodule](https://www.atlassian.com/git/tutorials/git-subtree){:target="_blank"}
+
+{% include ad-contents.html %}

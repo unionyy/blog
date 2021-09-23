@@ -14,6 +14,8 @@ permalink: /js/charts-donut/
 Google Charts는 예전에 포스팅했던 [Frappe Charts](/js/frappe-charts){:target="_blank"}와 비슷한 기능을 하는 자바스크립트 차트 라이브러리입니다. 사용법도 거의 비슷하고, 구글에서 만든 모듈인지라 문서화가 잘 돼있습니다. [Google Charts](https://developers.google.com/chart){:target="_blank"}
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## JavaScript 차트 라이브러리
 
 * [Frappe Charts](https://frappe.io/charts){:target="_blank"}
@@ -77,6 +79,8 @@ Google Charts는 예전에 포스팅했던 [Frappe Charts](/js/frappe-charts){:t
 </html>
 ```
 
+{% include ad-contents.html %}
+
 ## 파이차트를 도넛차트로
 
 파이차트에 pieHole 옵션을 추가해주면 파이차트의 중앙에 구멍이 생겨 도넛차트가 됩니다.
@@ -115,6 +119,8 @@ var options = {
   legend: 'none'
 };
 ```
+
+{% include ad-contents.html %}
 
 ## 도넛차트 중앙에 이미지 추가
 CSS의 position 속성(relative, absolute)를 이용합니다. 차트와 이미지를 감싸는 부모 `<div>` 태그에 `position: relative;`, 이미지 태그에 `position: absolute;`의 CSS 설정을 해준 뒤에 위치를 조정하면 됩니다.
@@ -213,6 +219,8 @@ CSS의 position 속성(relative, absolute)를 이용합니다. 차트와 이미�
     </body>
 </html>
 ```
+
+{% include ad-contents.html %}
 
 ## Reference
 
