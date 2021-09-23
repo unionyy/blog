@@ -20,6 +20,8 @@ permalink: /kakao/taxi/
 * [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413){:target="_blank"}
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## 풀이
 
 A, B, S 세개의 지점에서 모든 지점으로의 최단거리를 다익스트라(Dijkstra) 알고리즘을 이용하여 구한다.
@@ -101,3 +103,5 @@ int solution(int n, int s, int a, int b, vector<vector<int>> fares) {
 ## Reference
 
 * [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413){:target="_blank"}
+
+{% include ad-contents.html %}

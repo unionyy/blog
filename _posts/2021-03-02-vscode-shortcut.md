@@ -13,6 +13,9 @@ permalink: /vscode/shortcuts/
 ---
 VS Code 에서 제가 많이 사용하는 단축키들입니다.
 <!--more-->
+
+{% include ad-contents.html %}
+
 ## 되돌리기: **ctrl + z**
 
 ## 복사: **ctrl + c**
@@ -42,6 +45,8 @@ VS Code 에서 제가 많이 사용하는 단축키들입니다.
 * 한글자씩: **shift + 방향키**
 
 * 한단어씩: **shift + ctrl + 방향키**
+
+{% include ad-contents.html %}
 
 ## 다중 커서 (마우스): **alt + click**
 클릭한 위치에 커서가 추가로 생성됩니다.
@@ -82,6 +87,8 @@ VS Code 에서 제가 많이 사용하는 단축키들입니다.
 ## 키보드 단축키 설정창: **ctrl + k ctrl + s**
 **ctrl**을 누른 상태에서 **k**와 **s**를 순서대로 누르면 키보드 단축키를 확인하고 설정할 수 있는 창이 열립니다.
 
+{% include ad-contents.html %}
+
 ## 내가 설정해놓은 단축키
 ![mine](/assets/post-images/vscode-shortcuts/toggleminimap.png)
 
@@ -90,3 +97,5 @@ Activity Bar는 왼쪽 끝의 아이콘 패널입니다. Minimap은 오른쪽 �
 
 ## Reference
 * [Visual Studio Code에서 Markdown(.md) 미리보기](/vscode/markdown/){:target="_blank"}
+
+{% include ad-contents.html %}

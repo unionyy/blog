@@ -15,6 +15,8 @@ permalink: /lol/lolog-match/
 [LoLog.me](https://lolog.me/){:target="_blank"} 에서 이제 개별 전적을 조회할 수 있습니다. 유저들에게 가장 친숙한 리그오브레전드 게임 클라이언트의 매치 히스토리 UI를 본따서 제작하였습니다. 그리고 유저들이 궁금해할 만한 정보들을 추가했습니다. 또한 닉네임을 클릭하면 해당 유저를 바로 검색할 수 있습니다.
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## 패치내역
 
 * 리그오브레전드 클라이언트
@@ -30,6 +32,8 @@ permalink: /lol/lolog-match/
 
 매치 히스토리 UI가 기존의 [LoLog.me](https://lolog.me/){:target="_blank"} 사이트의 UI와 자연스럽게 어우러질 수 있도록, 승패에 따라 테마색을 정하고 현재 열려있는 매치 히스토리의 로그 아이콘의 색상을 변경시켰으며, 동일한 색상으로 매치 히스토리 창의 테두리를 추가했습니다.
 
+{% include ad-contents.html %}
+
 ## 향후 계획
 
 ### 챔피언별 데미지 그래프 추가
@@ -43,6 +47,8 @@ permalink: /lol/lolog-match/
 
 ### 최근전적 통계
 전적 상세정보를 제공하기 위해, Riot API를 효율적으로 사용하여 Match 데이터를 가져오는 기능을 구현했습니다. 이에 따라 좀더 자세한 정보를 가진 매치 로그를 DB에 저장할 수 있게 되었고, 최근경기에 한해서 더 자세한 통계를 제공할 수 있게 되었습니다. 최근 경기의 승패 정보와 KDA 정보를 한눈에 확인할 수 있게 하고, 이에 대한 통계 그래프를 제공할 예정입니다.
+
+{% include ad-contents.html %}
 
 ## [LoLog.me](https://lolog.me/){:target="_blank"}
 

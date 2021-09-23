@@ -20,6 +20,8 @@ Node.js기반 디스코드 봇을 위한 롤 전적 검색 모듈을 배포하�
 데이터는 LoLog.me에서 가져옵니다.
 <!--more-->
 
+{% include ad-contents.html %}
+
 ![capture](/assets/post-images/lol-discord/lol.png)
 
 현재 한국어와 영어를 지원합니다.
@@ -37,3 +39,5 @@ Node.js기반 디스코드 봇을 위한 롤 전적 검색 모듈을 배포하�
 
 ## NPM 배포시 참고한 링크
 * [내 NPM 패키지(모듈) 배포하기](https://heropy.blog/2019/01/31/node-js-npm-module-publish//){:target="_blank"}
+
+{% include ad-contents.html %}

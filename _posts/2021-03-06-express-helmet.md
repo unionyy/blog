@@ -15,6 +15,9 @@ permalink: /nodejs/helmet/
 ---
 Express로 만들어진 웹 사이트의 보안을 강화하기 위해 [Helmet](https://helmetjs.github.io/){:target="_blank"} 미들웨어를 사용합니다.
 <!--more-->
+
+{% include ad-contents.html %}
+
 ## 설치 및 사용법
 * [Helmet](https://helmetjs.github.io/){:target="_blank"}
 
@@ -48,6 +51,8 @@ app.use(helmet.xssFilter());
 // ...
 ```
 
+{% include ad-contents.html %}
+
 ## Content Security Policy (CSP)
 CSP를 사용하면 웹사이트의 http응답에 CSP 헤더가 추가됩니다. CSP 헤더가 존재할 경우, 브라우저는 CSP 헤더에 언급되지 않은 리소스들을 로드하지 않습니다. Helmet의 CSP 기본설정은 'self' 즉, 자신의 웹사이트에 존재하는 리소스들만을 허용합니다.
 
@@ -75,6 +80,8 @@ app.use(helmet({
   contentSecurityPolicy: cspOptions,
 }));
 ```
+
+{% include ad-contents.html %}
 
 ## 'unsafe-inline' 대체하기
 CSP 헤더에 'unsafe-inline'을 추가하면, 인라인된 스크립트의 실행이 허용됩니다. 그러나 이는 해커가 웹사이트의 inline 스크립트를 주입하여 보안상의 위협을 가할 수 있게 합니다. 이를 해결하는 방법은 세가지가 있습니다.
@@ -141,6 +148,8 @@ app.use(
 
 hash를 사용할 경우에는 각각의 inline script 마다 해시값을 추가해야하고, inline script가 매번 바뀔 경우 해시값도 매번 바뀌게 된다는 단점이 있습니다. 웹사이트에 inline script가 매우 적고, 항상 동일할 경우에만 사용하는 것이 좋겟습니다.
 
+{% include ad-contents.html %}
+
 ## CSP에 Google Gtag 추가 (Google Tag Manager)
 Google Gtag를 손쉽게 관리하기 위해서, 기존 Gtag 코드를 Google Tag Manage로 대체했습니다.
 * [태그 관리자 설정 및 설치하기](https://support.google.com/tagmanager/answer/6103696?hl=ko){:target="_blank"}
@@ -186,6 +195,8 @@ app.use(helmet({
   contentSecurityPolicy: cspOptions,
 }));
 ```
+
+{% include ad-contents.html %}
 
 ## Reference
 * [Helmet](https://helmetjs.github.io/){:target="_blank"}

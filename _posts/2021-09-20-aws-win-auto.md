@@ -19,6 +19,8 @@ permalink: /aws/window-startup/
 대신 윈도우 서버에서는 AWS EC2의 `사용자 데이터 스크립트` 기능을 사용하면 됩니다.
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## pm2 설치 경로 변경
 
 `npm install pm2 -g` 명령어로 pm2를 설치했을 경우 pm2는 사용자 디렉토리에 저장됩니다.
@@ -66,6 +68,8 @@ pm2 start parrot-bot.js --time
 <persist>true</persist>
 ```
 
+{% include ad-contents.html %}
+
 ## EC2Launch script 실행
 
 ![User Data Script](/assets/post-images/window-startup/ec2-launch-setting.png)
@@ -89,3 +93,5 @@ EC2 Launch Setting의 Sysprep 탭에서 Shutdown with Sysprep 버튼을 눌러 �
 * [시작 시 Windows 인스턴스에서 명령 실행](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/WindowsGuide/ec2-windows-user-data.html){:target="_blank"}
 
 * [npm 모듈의 전역 설치 위치 변경](https://soooprmx.com/npm-%EB%AA%A8%EB%93%88%EC%9D%98-%EC%A0%84%EC%97%AD-%EC%84%A4%EC%B9%98-%EC%9C%84%EC%B9%98-%EB%B3%80%EA%B2%BD/){:target="_blank"}
+
+{% include ad-contents.html %}

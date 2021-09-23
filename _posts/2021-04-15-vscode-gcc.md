@@ -13,7 +13,10 @@ permalink: /vscode/gcc/
 ---
 
 리눅스 환경에서는 터미널에서 GCC를 쉽게 설치하고 사용할 수 있습니다. 그러나 윈도우에서는 다소 번거로운 작업이 필요합니다. 윈도우 cmd(명령 프롬프트)에서 GCC를 사용할 수 있도록 세팅을 하고 VS code에서 f5키를 눌렀을 때 디버그가 실행되도록 설정해봅시다.
+
 <!--more-->
+
+{% include ad-contents.html %}
 
 ## Windows 환경에서 GCC 설치 (MinGW)
 
@@ -51,6 +54,8 @@ installer로 설치할 경우 제대로 설치가 되지 않는 문제가 발생
 
 명령 프롬프트를 실행해서 `gcc --version`을 입력하여 gcc가 제대로 설치 되었는지 확인합니다.
 
+{% include ad-contents.html %}
+
 ## Visual Studio Code 에서 GCC로 컴파일하기
 
 GCC를 설치했다면 VS Code의 터미널(`ctrl + j`)에서 명령어를 입력하여 gcc를 실행시킬 수 있습니다. 예) `g++ file_name.cpp`
@@ -79,3 +84,4 @@ GCC를 설치했다면 VS Code의 터미널(`ctrl + j`)에서 명령어를 입�
 
 * [반디집](https://kr.bandisoft.com/bandizip/){:target="_blank"}
 
+{% include ad-contents.html %}

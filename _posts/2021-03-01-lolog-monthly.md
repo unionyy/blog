@@ -15,6 +15,8 @@ permalink: /lol/lolog-monthly/
 [LoLog.me](https://lolog.me/){:target="_blank"} 사이트를 제대로 만들어 보겠다는 [포스트](/lol/lolog-me){:target="_blank"}를 업로드한 후로 딱 한달이 지났습니다. 그동안 업데이트한 내용들을 정리해볼까 합니다.
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## Preview
 [LoLog.me](https://lolog.me/){:target="_blank"}
 
@@ -34,6 +36,8 @@ permalink: /lol/lolog-monthly/
 * After
 <img src="/assets/post-images/lolog-monthly/usernew.png" alt="Userpage New" style="width:100%; border: 1px solid #24292e;"/>
 
+{% include ad-contents.html %}
+
 ### 모바일 페이지
 
 * Before
@@ -50,6 +54,7 @@ permalink: /lol/lolog-monthly/
 <img src="/assets/post-images/lolog-monthly/usermobilenew2.png" alt="mobileuser2 new" style="width:30%; border: 1px solid #24292e;margin-bottom: 20px;"/>
 </center>
 
+{% include ad-contents.html %}
 
 ## Riot API Production Key 승인
 먼저 계획했던 대로 Riot API를 이용해 사이트가 동작하도록 웹앱의 코드를 전체적으로 리팩토링했습니다. Riot API가 생각보다 응답속도가 굉장히 빠릅니다. (체감상 디스코드봇을 만들 때 사용했던 YouTube API보다 빠른 것 같았습니다) 그리고 Node.js의 특성상 병렬적으로 API를 호출하고 데이터를 처리하기 수월했습니다. 그 결과, 크롤링을 사용해서 데이터를 가져왔을 때보다 사이트의 응답속도가 몇배는 더 빨라졌습니다.
@@ -74,6 +79,8 @@ Riot API 관련 포스트
 
 4. 기존에 지원하던 솔랭, 자랭 등의 게임 모드별 검색 기능에서, 이제 모든 게임모드를 조회 가능합니다.
 
+{% include ad-contents.html %}
+
 ## DB 연동
 Riot API를 이용해서 전적 로그를 가져오기 위해서는 100 게임당 1개의 API 호출이 필요합니다. 유저 한명당 1000게임 이상의 전적 로그를 한번에 가져와야할 경우가 많아서 매번 API를 호출할 경우 Riot API의 Rate Limit에 금방 도달해버릴 것입니다. 또한 사이트 로딩 속도도 느려지겠죠.
 
@@ -92,6 +99,8 @@ MySQL 관련 포스트
 차트 관련 포스트
 * [JavaScript 차트 만들기[Frappe Charts]](/js/frappe-charts/){:target="_blank"} ([롤로그미](https://lolog.me){:target="_blank"}에 Frappe Charts를 활용하지는 않았습니다.)
 * [JavaScript 도넛 차트 만들기[Google Charts]](/js/charts-donut/){:target="_blank"}
+
+{% include ad-contents.html %}
 
 ## UI 대폭 변경
 * 메인페이지 배경색 변경
@@ -112,6 +121,8 @@ MySQL 관련 포스트
 ## 향후 계획
 이상하게 업데이트를 하면 할수록 할일이 더 많아집니다... 아직 수정해야할 부분도 많은데 추가하고 싶은 기능과 서비스가 점점 많아지고 있습니다.
 
+{% include ad-contents.html %}
+
 ### 패치가 필요한 부분
 * 모바일에서 도넛차트가 너무 크게 보입니다.
 
@@ -125,6 +136,8 @@ MySQL 관련 포스트
 * 정글 동선 분석 - 여러 유저들의 게임 플레이 기록을 분석하여 정글 챔피언별로 효과적인 정글 동선을 분석해보고 싶습니다. 정글 동선은 정글러에게 있어서 가장 중요한 부분입니다. 이를 데이터에 기반하여 분석하면 유용한 데이터를 만들어낼 수 있을 것 같습니다. (제가 정글러라서 저에게도 큰 도움이 될 겁니다!)
 
 * 구글 애드센스 - 구글 애드센스를 신청했으나 반려되었습니다. 아직은 부족한 부분이 많은 것 같습니다. 상세 전적 기능까지 구현한 뒤에 다시 신청해볼 계획입니다.
+
+{% include ad-contents.html %}
 
 ## Reference
 * [LoLog.me](https://lolog.me/){:target="_blank"}
@@ -152,3 +165,5 @@ MySQL 관련 포스트
 * [Favicon Generator](https://realfavicongenerator.net/){:target="blank"}
 
 * [i18n](https://www.npmjs.com/package/i18n){:target="_blank"}
+
+{% include ad-contents.html %}
