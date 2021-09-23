@@ -16,6 +16,8 @@ Riot API의 Match-V4의 리턴값 중에서 PlayerDto 안에 'matchHistoryUri'�
 
 <!--more-->
 
+{% include ad-contents.html %}
+
 ## 발견
 [LoLog.me](https://lolog.me/){:target="_blank"} 사이트에 전적 정보를 제공하기 위해 Riot API의 Match-V4를 살펴보던 중 'matchHistoryUri'라는 값을 발견했습니다.
 ```json
@@ -44,6 +46,8 @@ Riot API의 Match-V4의 리턴값 중에서 PlayerDto 안에 'matchHistoryUri'�
 
 그러나 이 데이터가 라이엇에서 공식적으로 제공하는 데이터인지 알 수 없었고, 이것을 웹서비스에 이용해도 되는지도 알 수 없었습니다. 그리고 Riot 계정으로 로그인하지 않은 상태에서는 데이터를 요청할 수 없는 문제도 있었습니다.
 
+{% include ad-contents.html %}
+
 ## 디스코드 채널에서 답을 찾다
 
 명확한 해답을 찾기 위해 라이엇 API 공식 디스코드 채널에 가입했습니다. 디스코드 채널에서 matchHistoryUri라는 키워드로 검색해보니 저와 비슷한 궁금증을 가진 사람들이 많았습니다. 그리고 이에 대한 해답을 얻을 수 있었습니다.
@@ -61,6 +65,8 @@ Riot API의 Match-V4의 리턴값 중에서 PlayerDto 안에 'matchHistoryUri'�
 전적 10개를 한번에 가져오는 기능은 현재 Match-V4 API에서 제공하지 않습니다. 여러개의 전적 데이터를 가져오기 위해서는 Match-V4 API를 여러번 동시에 호출하는 것이 현재로써는 최선의 방법으로 보여집니다.
 
 [LoLog.me](https://lolog.me/){:target="_blank"}에서는 현재 개별 매치 데이터를 제공하고 있지 않습니다. (라이엇 공식 사이트로 연결해줍니다.) 하루빨리 개별 전적 데이터 제공 및 저장 기능을 구현해야겠습니다. (데이터가 워낙 많아 API와 DB를 적절히 활용하는 최적의 방법을 찾아야 합니다..!)
+
+{% include ad-contents.html %}
 
 ## Reference
 * [DEVELOPER-RIOTGAMES](https://developer.riotgames.com/){:target="_blank"}
