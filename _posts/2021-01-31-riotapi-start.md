@@ -18,17 +18,7 @@ Riot API를 이용해서 저만의 롤 전적검색 사이트를 만들어 보�
 이 포스팅에서는 Riot API의 기본적인 사용법을 살펴보고 간단히 테스트해보도록 하겠습니다.
 
 <!--more-->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6916694174053190"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6916694174053190"
-     data-ad-slot="2789714322"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+{% include ad-contents.html %}
 
 ## 계정생성
 [라이엇 개발자 페이지](https://developer.riotgames.com/){:target="_blank"}에 접속하여 본인의 롤 계정으로 로그인하거나 새 계저을 만들어줍니다.
@@ -47,17 +37,7 @@ RIOT API KEY가 생성되었습니다. 지금 생성된 KEY는 DEVELOPMENT API K
 
 라이엇 개발자 페이지에서는 Riot API의 사용법을 알아보고 원하는 API를 간편하게 테스트해볼 수 있습니다.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6916694174053190"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6916694174053190"
-     data-ad-slot="2789714322"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+{% include ad-contents.html %}
 
 ### 소환사명으로 검색하기
 
@@ -82,17 +62,7 @@ RESULT BODY 탭에서 API의 응답을 확인할 수 있습니다.
 이 중에서 본인이 사용할 API가 요구하는 id값을 사용하면 됩니다. 주의할 사항은 API의 사용자가 바뀌면(KEY가 바뀌면) id값들도 바뀌게 됩니다. 즉, id값들은 하나의 API KEY만을 위해 암호화된 값들입니다. (API KEY를 재발급 받는 경우에는 바뀌지 않습니다) - [참조](https://riot-api-libraries.readthedocs.io/en/latest/ids.html){:target="_blank"}
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6916694174053190"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6916694174053190"
-     data-ad-slot="2789714322"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+{% include ad-contents.html %}
 
 ### 소환사 리그 정보 조회하기 (티어, 승률 등)
 
@@ -112,14 +82,4 @@ RESULT BODY 탭에서 API의 응답을 확인할 수 있습니다.
 * [DEVELOPER-RIOTGAMES](https://developer.riotgames.com/){:target="_blank"}
 * [PUUIDs and Other IDs](https://riot-api-libraries.readthedocs.io/en/latest/ids.html){:target="_blank"}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6916694174053190"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6916694174053190"
-     data-ad-slot="2789714322"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+{% include ad-contents.html %}
