@@ -81,7 +81,6 @@ RESULT BODY 탭에서 API의 응답을 확인할 수 있습니다.
 
 이 중에서 본인이 사용할 API가 요구하는 id값을 사용하면 됩니다. 주의할 사항은 API의 사용자가 바뀌면(KEY가 바뀌면) id값들도 바뀌게 됩니다. 즉, id값들은 하나의 API KEY만을 위해 암호화된 값들입니다. (API KEY를 재발급 받는 경우에는 바뀌지 않습니다) - [참조](https://riot-api-libraries.readthedocs.io/en/latest/ids.html){:target="_blank"}
 
-### 소환사 리그 정보 조회하기 (티어, 승률 등)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6916694174053190"
      crossorigin="anonymous"></script>
@@ -94,6 +93,8 @@ RESULT BODY 탭에서 API의 응답을 확인할 수 있습니다.
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+### 소환사 리그 정보 조회하기 (티어, 승률 등)
 
 `LEAGUE-V4` 탭에서 `by-summoner` 항목을 선택합니다.
 
