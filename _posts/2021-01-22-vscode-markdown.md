@@ -9,6 +9,8 @@ tags:
   - Markdown
   - GitHub
 permalink: /vscode/markdown/
+toc: false
+ad_side: true
 ---
 ---
 GitHub에 REAMDME 파일을 작성할 때
