@@ -10,8 +10,6 @@ tags:
   - Repository
   - Commit Log
 permalink: /github/subtree/
-toc: false
-ad_side: true
 ---
 ---
 `git subtree add`를 이용하면,

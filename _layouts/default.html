@@ -21,6 +21,12 @@
 
     <div class="initial-content">
       {{ content }}
+
+      {% if page.ad_side %}
+        <aside class="sidebar__right side__ad" style="height: 100%;">
+          {% include ad-side.html %}
+        </aside>
+      {% endif %}
     </div>
 
     {% if site.search == true %}
