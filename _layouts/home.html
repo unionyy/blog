@@ -14,6 +14,11 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
+  {% if page.ad_side %}
+    <aside class="sidebar__right side__ad" style="height: 100%;">
+      {% include ad-side.html %}
+    </aside>
+  {% endif %}
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
