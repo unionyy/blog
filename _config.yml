@@ -51,17 +51,9 @@ markdown: kramdown
  
 # Outputting
 permalink: /:slugified_categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 timezone: KR # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: /page:num/
-  debug: true
-  trail:
-    before: 2
-    after: 2
 
 include:
   - _pages
