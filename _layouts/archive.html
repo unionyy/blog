@@ -16,16 +16,10 @@ layout: default
 
 <div id="main" role="main">
   {% include sidebar.html %}
-
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    {% if page.ad_side %}
-      <aside class="sidebar__right side__ad">
-        {% include ad-side.html %}
-      </aside>
-    {% endif %}
     {{ content }}
   </div>
 </div>
