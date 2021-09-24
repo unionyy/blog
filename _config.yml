@@ -58,7 +58,7 @@ pagination:
   enabled: true
   per_page: 5
   permalink: /page:num/
-  debug: false
+  debug: true
   trail:
     before: 2
     after: 2
