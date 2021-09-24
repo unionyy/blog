@@ -1,10 +1,44 @@
 ---
 layout: archive
+links: 
+  Algorithm: algorithm
+  LoL: lol
+  JavaScript: js
+  Visual Studio Code: vscode
+test: true
 ---
 
 {{ content }}
 
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+  {% if category[1].size > categories_max %}
+    {% assign categories_max = category[1].size %}
+  {% endif %}
+{% endfor %}
+
+<ul class="taxonomy__index">
+  {% for i in (1..categories_max) reversed %}
+    {% for category in site.categories %}
+      {% if category[1].size == i %}
+        <li>
+          <a href="/{{ layout.links | map: category[0] }}", data="{{ layout.test }}">
+            <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+{% assign posts = paginator.posts %}
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
+  {%- for post in posts -%}
+    {%- unless post.hidden -%}
+      {% include archive-single.html %}
+    {%- endunless -%}
+  {%- endfor -%}
 </div>
+
+{% include paginator.html %}
