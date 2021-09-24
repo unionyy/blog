@@ -93,6 +93,14 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+whitelist:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 author:
   name              : "유년"
   avatar            : "/assets/images/bio-photo.jpg"
