@@ -1,0 +1,9 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+  <a href="{{ post.url | relative_url }}" rel="permalink"><li>{{ title }}</li></a>
+</div>

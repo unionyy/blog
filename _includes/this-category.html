@@ -1,0 +1,49 @@
+{% assign maxPosts = 5 %}
+{% assign maxNext = 2 %}
+
+{% assign catPosts = "" | split:',' %}
+{% assign postCnt = 0 %}
+{% assign prevCnt = 0 %}
+{% assign nextCnt = 0 %}
+
+{% for post in site.posts %}
+    {% if page.categories[0] != post.categories[0] %}
+        {% continue %}
+    {% endif %}
+    {% if post.id == page.id %}
+        {% assign nextCnt = nextCnt | plus: 1 %}
+        {% assign postCnt = postCnt | plus: 1 %}
+        {% assign catPosts = catPosts | push: post }
+    {% endif %}
+    {% elsif nextCnt == 0 %}
+        {% assign catPosts = catPosts | push: post %}
+        {% assign postCnt = postCnt | plus: 1 %}
+        {% assign prevCnt = prevCnt | plus: 1 %}
+    {% else %}
+        {% if nextCnt > maxNext %}
+            {% if maxPosts == postCnt %}
+                {% break %}
+            {% endif %}
+        {% endif %}
+        {% assign catPosts = catPosts | push: post %}
+        {% assign postCnt = postCnt | plus: 1 %}
+        {% assign nextCnt = nextCnt | plus: 1 %} 
+    {% endif %}
+    {% if maxPosts < postCnt %}
+        {% assign catPosts = catPosts | slice: 1, 5 %}
+        {% assign postCnt = postCnt | minus: 1 %}
+    {% endif %}
+{% endfor %}
+
+<div>
+    <h3><a href="/categories#{{ page.categories[0] | slugify }}">{{ page.categories[0] }}</a> 카테고리의 다른 글</h3>
+    <div>
+        {% for post in catPosts %}
+            {% if post.id == page.id %}
+                {% include archive-shorts.html type="highlight" %}
+            {% else %}
+                {% include archive-shorts.html type="list" %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
