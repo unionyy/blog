@@ -13,10 +13,17 @@ layout: archive
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
+<section class="archive__content" itemprop="text">
+  {% if page.ad_side %}
+    <aside class="sidebar__right side__ad">
+      {% include ad-side.html %}
+    </aside>
+  {% endif %}
+  <div class="entries-{{ entries_layout }}">
+    {% for post in posts %}
+      {% include archive-single.html type=entries_layout %}
+    {% endfor %}
+  </div>
+</section>
 
 {% include paginator.html %}

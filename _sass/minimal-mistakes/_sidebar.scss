@@ -346,3 +346,11 @@
   }
 }
 
+.side__ad {
+  display: none;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+

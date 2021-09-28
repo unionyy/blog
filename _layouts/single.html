@@ -40,8 +40,14 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        {% if page.ad_side %}
+          <aside class="sidebar__right side__ad">
+            {% include ad-side.html %}
+          </aside>
+        {% endif %}
         {% include this-category.html %}
         {{ content }}
+        {% include this-category.html %}
         {% include this-category.html %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
