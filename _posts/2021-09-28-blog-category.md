@@ -1,5 +1,5 @@
 ---
-title: "[Jekyll, GitHub Page] 이 카테고리의 다른 글 만들기"
+title: "[Jekyll, GitHub Page] '이 카테고리의 다른 글' 만들기"
 excerpt_separator: "<!--more-->"
 layout: single
 date: 2021-09-28T20:45:30+09:00
