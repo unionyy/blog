@@ -31,6 +31,7 @@ Liquid를 이용해서 같은 카테고리의 포스트들 중에서 이전 포�
 현재 포스트에는 highlight 타입을 주어서 강조되도록 하였습니다.
 
 * this-category.html
+{% raw %}
 ```html
 {% assign maxPosts = 5 %}
 {% assign maxNext = 2 %}
@@ -82,6 +83,7 @@ Liquid를 이용해서 같은 카테고리의 포스트들 중에서 이전 포�
     </div>
 </div>
 ```
+{% raw %}
 
 {% include ad-contents.html %}
 
@@ -89,6 +91,7 @@ Liquid를 이용해서 같은 카테고리의 포스트들 중에서 이전 포�
 기존의 archive-single.html 에서는 포스트의 제목만 나열하는 리스트가 없었습니다. 그래서 포스트의 제목들을 리스트로 나열할 수 있도록 archive-shorts.html을 작성해주었습니다.
 
 * archive-shorts.html
+{% raw %}
 ```html
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -100,6 +103,7 @@ Liquid를 이용해서 같은 카테고리의 포스트들 중에서 이전 포�
   <a href="{{ post.url | relative_url }}" rel="permalink"><li>{{ title }}</li></a>
 </div>
 ```
+{% endraw %}
 
 ## CSS로 기존 포스트 강조
 this-category.html 에서 현재 포스트에 highlight 타입을 주었으므로 현재 포스트에 해당되는 링크는 highlight__item class에 속하게 됩니다.
@@ -117,6 +121,7 @@ _archive.scss 파일에 highlight__item 을 강조하는 코드를 추가합니�
 ## 원하는 위치에 카테고리 코드 삽입
 포스트의 기본 레이아웃이 되는 single.html 레이아웃의 원하는 위치에 위에서 작성한 this-category.html 을 include 해줍니다.
 
+{% raw %}
 ```
 {% include this-category.html %}
 
@@ -124,6 +129,7 @@ _archive.scss 파일에 highlight__item 을 강조하는 코드를 추가합니�
 
 {% include this-category.html %}
 ```
+{% endraw %}
 저는 포스트를 읽기 전이나 읽은 후에 참고할 수 있도록 컨텐츠의 앞뒤로 하나씩 넣어주었습니다.
 
 ## 결과
