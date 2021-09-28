@@ -30,7 +30,7 @@ Liquid를 이용해서 같은 카테고리의 포스트들 중에서 이전 포�
 
 현재 포스트에는 highlight 타입을 주어서 강조되도록 하였습니다.
 
-* this-category.html
+**this-category.html**
 {% raw %}
 ```html
 {% assign maxPosts = 5 %}
@@ -83,14 +83,14 @@ Liquid를 이용해서 같은 카테고리의 포스트들 중에서 이전 포�
     </div>
 </div>
 ```
-{% raw %}
+{% endraw %}
 
 {% include ad-contents.html %}
 
 ## 각 포스트의 html 형태 설정
 기존의 archive-single.html 에서는 포스트의 제목만 나열하는 리스트가 없었습니다. 그래서 포스트의 제목들을 리스트로 나열할 수 있도록 archive-shorts.html을 작성해주었습니다.
 
-* archive-shorts.html
+**archive-shorts.html**
 {% raw %}
 ```html
 {% if post.id %}
@@ -134,7 +134,7 @@ _archive.scss 파일에 highlight__item 을 강조하는 코드를 추가합니�
 
 ## 결과
 
-![result](/assets/post-images/category/result.png)
+![result](/assets/post-images/blog-category/result.png)
 
 원했던대로 같은 카테고리의 이전 포스트 2개, 현재 포스트, 이후 포스트 2개의 링크가 만들어졌습니다. 그리고 현재 포스트는 강조됩니다!
 
