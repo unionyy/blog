@@ -470,3 +470,15 @@
   text-decoration: underline;
   font-weight: 700;
 }
+
+.date__item {
+  font-size: $type-size-6;
+  margin-left: 30px;
+  text-indent: -30px;
+  .date__text {
+    font-weight: 500;
+    color: gray;
+    font-size: $type-size-8;
+    white-space:nowrap;
+  }
+}

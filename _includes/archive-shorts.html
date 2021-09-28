@@ -4,6 +4,10 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item">
-  <a href="{{ post.url | relative_url }}" rel="permalink"><li>{{ title }}</li></a>
+<div class="{{ include.type | default: 'list' }}__item date__item">
+  {% if post.id == page.id %}
+    <a href="{{ post.url | relative_url }}" rel="permalink">👈 {{ title }} <span class="date__text">{{ post.date | slice: 0, 10}}</span></a>
+  {% else %}
+    <a href="{{ post.url | relative_url }}" rel="permalink">👉 {{ title }} <span class="date__text">{{ post.date | slice: 0, 10}}</span></a>
+  {% endif %}
 </div>
