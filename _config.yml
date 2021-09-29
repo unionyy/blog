@@ -37,7 +37,7 @@ search_full_content       : true # true, false (default)
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-5VLYJWQNP2"
+    tracking_id: "G-7KXC9MZLZF"
     anonymize_ip: false # default
 
 # SEO Related
