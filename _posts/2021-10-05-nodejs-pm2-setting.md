@@ -30,7 +30,7 @@ permalink: /nodejs/pm2-options/
 앱의 메모리 상한선을 설정합니다. 메모리가 상한선을 초과할 경우 앱이 자동으로 재시작됩니다.
 
 ## ecosystem.config.json 에서 사용
-* [[PM2] Configuration File 로 프로세스 한번에 실행하기](/nodejs/pm2-options/){:target="_blank"}
+* [[PM2] Configuration File 로 프로세스 한번에 관리하기](/nodejs/pm2-options/){:target="_blank"}
 
 ## Reference
 * [PM2 Process Management Quick Start](https://pm2.keymetrics.io/docs/usage/quick-start/){:target="_blank"}

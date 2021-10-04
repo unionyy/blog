@@ -1,5 +1,5 @@
 ---
-title: "[PM2] Configuration File 로 프로세스 한번에 실행하기"
+title: "[PM2] Configuration File 로 프로세스 한번에 관리하기"
 excerpt_separator: "<!--more-->"
 layout: single
 date: 2021-10-05T01:15:30+09:00
