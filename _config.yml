@@ -38,7 +38,7 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-7KXC9MZLZF"
-    anonymize_ip: true # default
+    anonymize_ip: false # default
 
 # SEO Related
 google_site_verification : "RJmqWBTSut2QXBuWlz8a_IpkN799k1bXsxtK3ex1eyY"
