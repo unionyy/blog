@@ -12,12 +12,13 @@ tags:
 permalink: /lol/lolog-recent2/
 ---
 ---
+{% include ad-contents.html %}
+
 [LoLog.me](https://lolog.me/){:target="_blank"} 에서 이제 챔피언에게 가한 피해량 그래프를 확인할 수 있습니다.
 
 모바일 반응성이 향상되었습니다.
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## 챔피언에게 가한 피해량(딜량) 그래프
 

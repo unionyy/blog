@@ -11,6 +11,8 @@ tags:
 permalink: /nodejs/make-not-found/
 ---
 ---
+{% include ad-contents.html %}
+
 [앵무새봇](https://koreanbots.dev/bots/795333228662751253){:target="_blank"}의 서버를 증설하기 위해 새로운 AWS EC2 인스턴스를 생성하였습니다.
 
 서버에 nvm과 Node.js를 설치하고 프로젝트를 클론한 뒤에 **npm install** 명령어를 실행하였으나 **Error: not found: make** 오류가 뜨면서 모듈 하나가 설치되지 않았습니다.

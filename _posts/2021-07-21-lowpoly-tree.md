@@ -12,10 +12,11 @@ tags:
 permalink: /blender/lowpoly-tree/
 ---
 ---
+{% include ad-contents.html %}
+
 블랜더로 모델링하고 렌더링한 로우폴리 나무입니다. 튜토리얼을 따라가니 첫작품 치고 꽤나 만족스러운 결과가 나왔습니다.
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## 튜토리얼
 

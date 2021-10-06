@@ -11,11 +11,11 @@ tags:
 permalink: /nodejs/pm2-options/
 ---
 ---
+{% include ad-contents.html %}
 
 [앵무새봇](https://koreanbots.dev/bots/795333228662751253){:target="_blank"}을 배포할 때 사용하는 PM2 옵션입니다.
 
 <!--more-->
-{% include ad-contents.html %}
 
 ## `--time`
 로그가 찍힐 때 시간도 함께 찍히도록 합니다.

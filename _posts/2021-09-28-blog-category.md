@@ -12,11 +12,12 @@ tags:
 permalink: /blog/category/
 ---
 ---
+{% include ad-contents.html %}
+
 방문자들이 관련 포스트를 쉽게 찾아갈 수 있도록 '이 카테고리의 다른 글' 링크를 만들었습니다.
 
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## Lequid 문법
 Jekyll 페이지의 문서에 Liquid 코드를 추가하면 빌드되면서 실행됩니다. Liquid를 이용하면 각 페이지에 맞는 링크들을 자동으로 생성할 수 있습니다.

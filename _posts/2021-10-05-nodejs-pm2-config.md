@@ -11,11 +11,11 @@ tags:
 permalink: /nodejs/pm2-config/
 ---
 ---
+{% include ad-contents.html %}
 
 PM2를 사용할 때에 Configuration File 을 생성해놓으면 여러 프로세스들을 한번에 실행할 수 있고, 옵션도 편리하게 추가할 수 있습니다.
 
 <!--more-->
-{% include ad-contents.html %}
 
 ## Configuration File 생성
 pm2 명령어로 간단하게 Configuration File (ecosystem.config.js) 을 생성할 수 있습니다.

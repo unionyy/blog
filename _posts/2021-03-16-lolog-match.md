@@ -12,10 +12,12 @@ tags:
 permalink: /lol/lolog-match/
 ---
 ---
+{% include ad-contents.html %}
+
+
 [LoLog.me](https://lolog.me/){:target="_blank"} 에서 이제 개별 전적을 조회할 수 있습니다. 유저들에게 가장 친숙한 리그오브레전드 게임 클라이언트의 매치 히스토리 UI를 본따서 제작하였습니다. 그리고 유저들이 궁금해할 만한 정보들을 추가했습니다. 또한 닉네임을 클릭하면 해당 유저를 바로 검색할 수 있습니다.
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## 패치내역
 

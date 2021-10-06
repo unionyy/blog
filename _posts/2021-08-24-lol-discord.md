@@ -13,6 +13,8 @@ tags:
 permalink: /lol/lol-discord/
 ---
 ---
+{% include ad-contents.html %}
+
 [LoL Discord](https://www.npmjs.com/package/lol-discord){:target="_blank"}
 
 Node.js기반 디스코드 봇을 위한 롤 전적 검색 모듈을 배포하였습니다.
@@ -20,7 +22,6 @@ Node.js기반 디스코드 봇을 위한 롤 전적 검색 모듈을 배포하�
 데이터는 LoLog.me에서 가져옵니다.
 <!--more-->
 
-{% include ad-contents.html %}
 
 ![capture](/assets/post-images/lol-discord/lol.png)
 

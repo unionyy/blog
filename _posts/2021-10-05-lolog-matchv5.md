@@ -12,11 +12,12 @@ tags:
 permalink: /lol/lolog-matchv5/
 ---
 ---
+{% include ad-contents.html %}
+
 Riot API 의 Match-V4 지원이 종료되었습니다. 그래서 [LoLog.me](https://lolog.me/){:target="_blank"} 서버를 Match-V5 에 맞게 업데이트했습니다.
 
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## 난잡한 코드
 

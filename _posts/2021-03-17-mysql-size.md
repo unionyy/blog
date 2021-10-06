@@ -11,10 +11,11 @@ tags:
 permalink: /mysql/size/
 ---
 ---
+{% include ad-contents.html %}
+
+
 MySQL의 기본 데이터베이스인, [INFORMATION_SCHEMA](https://dev.mysql.com/doc/refman/8.0/en/information-schema.html){:target="_blank"} 의 [TABLES](https://dev.mysql.com/doc/refman/8.0/en/information-schema-tables-table.html){:target="_blank"} 테이블에는 각각의 테이블에 대한 정보가 들어있습니다. SELECT 문으로 필요한 정보만 가져와보도록 하겠습니다.
 <!--more-->
-
-{% include ad-contents.html %}
 
 ## 쿼리문
 아래의 SQL 쿼리에서 fancy_data 를 원하는 데이터베이스 이름으로 바꿔주기만 하면 됩니다.

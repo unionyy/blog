@@ -12,11 +12,11 @@ tags:
 permalink: /blog/category-date/
 ---
 ---
+{% include ad-contents.html %}
 
 지난번 포스트에서 만들었던 '이 카테고리의 다른 글'에 날짜를 추가하고 손가락 이모티콘을 사용하여 가독성을 높혔습니다.
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## 만들었던 '이 카테고리의 다른 글'
 

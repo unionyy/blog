@@ -12,10 +12,11 @@ tags:
 permalink: /lol/lolog-recent/
 ---
 ---
+{% include ad-contents.html %}
+
+
 [LoLog.me](https://lolog.me/){:target="_blank"} 에서 이제 최근 전적을 한눈에 볼 수 있고, 승률 통계를 확인할 수 있습니다.
 <!--more-->
-
-{% include ad-contents.html %}
 
 ## 패치내역
 

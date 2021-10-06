@@ -12,6 +12,8 @@ tags:
 permalink: /aws/window-startup/
 ---
 ---
+{% include ad-contents.html %}
+
 리눅스의 경우 `pm2 save`와 `pm2 startup` 명령어를 사용해 재부팅시 pm2가 자동 실행되도록 할 수 있습니다.
 
 그러나 pm2 startup 명령어는 아직 Unix 계열 운영체제에서만 작동합니다.
@@ -19,7 +21,6 @@ permalink: /aws/window-startup/
 대신 윈도우 서버에서는 AWS EC2의 `사용자 데이터 스크립트` 기능을 사용하면 됩니다.
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## pm2 설치 경로 변경
 

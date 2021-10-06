@@ -12,6 +12,7 @@ tags:
 permalink: /kakao/taxi/
 ---
 ---
+{% include ad-contents.html %}
 
 ## 문제
 
@@ -20,7 +21,6 @@ permalink: /kakao/taxi/
 * [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413){:target="_blank"}
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## 풀이
 
