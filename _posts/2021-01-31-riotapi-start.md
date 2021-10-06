@@ -23,7 +23,7 @@ Riot API를 이용해서 저만의 롤 전적검색 사이트를 만들어 보�
 <!--more-->
 
 ## 계정생성
-[라이엇 개발자 페이지](https://developer.riotgames.com/){:target="_blank"}에 접속하여 본인의 롤 계정으로 로그인하거나 새 계저을 만들어줍니다.
+[라이엇 개발자 페이지](https://developer.riotgames.com/){:target="_blank"}에 접속하여 본인의 롤 계정으로 로그인하거나 새 계정을 만들어줍니다.
 
 ![roitdeveloper](/assets/post-images/riotapi-start/homepage.png)
 
