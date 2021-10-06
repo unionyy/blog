@@ -16,7 +16,6 @@ permalink: /nodejs/make-not-found/
 서버에 nvm과 Node.js를 설치하고 프로젝트를 클론한 뒤에 **npm install** 명령어를 실행하였으나 **Error: not found: make** 오류가 뜨면서 모듈 하나가 설치되지 않았습니다.
 
 <!--more-->
-{% include ad-contents.html %}
 
 ## 해결 방법
 **build-essential**을 설치하면 해결됩니다.
