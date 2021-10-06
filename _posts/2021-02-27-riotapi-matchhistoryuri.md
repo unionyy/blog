@@ -12,11 +12,14 @@ tags:
 permalink: /lol/riot-matchhistoryuri/
 ---
 ---
+
+{% include ad-contents.html %}
+
+
 Riot API의 Match-V4의 리턴값 중에서 PlayerDto 안에 'matchHistoryUri'라는 값이 있습니다. 이 값을 어디에 사용할 수 있을까요?
 
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## 발견
 [LoLog.me](https://lolog.me/){:target="_blank"} 사이트에 전적 정보를 제공하기 위해 Riot API의 Match-V4를 살펴보던 중 'matchHistoryUri'라는 값을 발견했습니다.

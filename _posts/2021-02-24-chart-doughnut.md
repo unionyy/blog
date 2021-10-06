@@ -11,10 +11,12 @@ tags:
 permalink: /js/charts-donut/
 ---
 ---
-Google Charts는 예전에 포스팅했던 [Frappe Charts](/js/frappe-charts){:target="_blank"}와 비슷한 기능을 하는 자바스크립트 차트 라이브러리입니다. 사용법도 거의 비슷하고, 구글에서 만든 모듈인지라 문서화가 잘 돼있습니다. [Google Charts](https://developers.google.com/chart){:target="_blank"}
-<!--more-->
 
 {% include ad-contents.html %}
+
+
+Google Charts는 예전에 포스팅했던 [Frappe Charts](/js/frappe-charts){:target="_blank"}와 비슷한 기능을 하는 자바스크립트 차트 라이브러리입니다. 사용법도 거의 비슷하고, 구글에서 만든 모듈인지라 문서화가 잘 돼있습니다. [Google Charts](https://developers.google.com/chart){:target="_blank"}
+<!--more-->
 
 ## JavaScript 차트 라이브러리
 

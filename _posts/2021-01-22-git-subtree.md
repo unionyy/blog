@@ -12,13 +12,15 @@ tags:
 permalink: /github/subtree/
 ---
 ---
+
+{% include ad-contents.html %}
+
 `git subtree add`를 이용하면,
 
 하나의 repository 안에 다른 repository를 그대로 복사해올 수 있습니다.
 
 이때, 기존의 commit log를 함께 복사해올 수 있습니다!
 <!--more-->
-{% include ad-contents.html %}
 
 ## 문제점
 코딩 실습들을 개별 Repository에서 진행하면서 문제가 생겼습니다.

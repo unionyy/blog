@@ -11,10 +11,10 @@ tags:
 permalink: /vscode/shortcuts/
 ---
 ---
+{% include ad-contents.html %}
+
 VS Code 에서 제가 많이 사용하는 단축키들입니다.
 <!--more-->
-
-{% include ad-contents.html %}
 
 ## 되돌리기: **ctrl + z**
 

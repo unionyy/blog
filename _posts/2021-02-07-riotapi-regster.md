@@ -12,10 +12,11 @@ tags:
 permalink: /lol/production-key/
 ---
 ---
+{% include ad-contents.html %}
+
+
 Riot API로 공개서비스를 제공하기 위해서는 제품을 등록하고, Production API Key를 발급받아야 합니다. 
 <!--more-->
-
-{% include ad-contents.html %}
 
 이전 포스트, [LoLog.me - 롤 전적검색 사이트](/lol/lolog-me/){:target="_blank"}에서 계획한 대로 [LoLog.me](https://lolog.me/){:target="_blank"} 웹서버를 Riot API를 사용하는 방식으로 변경하였습니다. YOUR.GG를 크롤링하던 코드를 모두 제거하고 Riot API 모듈을 만들어 적용시켰습니다.
 

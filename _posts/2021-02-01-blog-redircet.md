@@ -13,11 +13,13 @@ tags:
 permalink: /blog/redirect/
 ---
 ---
+{% include ad-contents.html %}
+
+
 제 [블로그](https://blog.uniony.me/){:target="_blank"}는 Jekyll과 GitHub Page 로 구현되어 있습니다. Jekyll의 기본설정에 따라, 포스트의 url이 `/카테고리/타이틀`로 설정 되어있었습니다. 이게 맘에 들지않아 url을 제 임의로 수정하고 기존의 url이 404 not found를 띄우지 않도록 Redirect했습니다.
 
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## Jekyll 포스트 url 변경하기
 Jekyll 페이지의 url을 변경하는 방법은 간단합니다.

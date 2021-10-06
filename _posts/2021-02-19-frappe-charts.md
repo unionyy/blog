@@ -11,10 +11,13 @@ tags:
 permalink: /js/frappe-charts/
 ---
 ---
+
+{% include ad-contents.html %}
+
+
 [Frappe Charts](https://frappe.io/charts){:target="_blank"}는 SVG 차트를 쉽게 만들게 해주는 오픈소스 모듈입니다. 여러가지 종류의 깔끔한 그래프들을 간편하게 만들 수 있습니다.
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## CDN을 사용하여 설치하지 않고 사용하기
 ```html

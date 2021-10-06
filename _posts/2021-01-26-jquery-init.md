@@ -11,11 +11,12 @@ tags:
 permalink: /js/jquery-cdn/
 ---
 ---
+{% include ad-contents.html %}
+
+
 여러 회사에서 제공하는 jQuery CDN을 이용하면 jQuery를 쉽고 빠르게 이용할 수 있습니다.
 
 <!--more-->
-
-{% include ad-contents.html %}
 
 ## CDN (Content Delivery Network)
 

@@ -11,12 +11,13 @@ tags:
 permalink: /lol/production-key-approved/
 ---
 ---
+{% include ad-contents.html %}
+
+
 며칠전 신청했던 Riot API Production Key 발급이 승인되었습니다! 이제 [LoLog.me](https://lolog.me/){:target="_blank"} 를 지속적으로 서비스할 수 있게 되었습니다.
 
 신청서를 제출하고 승인이 되기까지 3-4일 정도 시간이 걸렸습니다. 생각보다 빠르게 돼서 놀랐네요 ㅎㅎ
 <!--more-->
-
-{% include ad-contents.html %}
 
 ## 이전 포스트
 * [LoLog.me - 롤 전적검색 사이트](/lol/lolog-me/){:target="_blank"}

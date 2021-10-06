@@ -12,10 +12,13 @@ tags:
 permalink: /mysql/insert-multi/
 ---
 ---
+
+{% include ad-contents.html %}
+
+
 MySQL에서 여러개의 INSERT 쿼리를 통합시켜 하나의 쿼리문으로 만들면 성능이 대폭 향상됩니다. (하나의 table에 대한 쿼리문일 경우)
 <!--more-->
 
-{% include ad-contents.html %}
 
 ## MySQL INSERT 쿼리 문법
 ```sql

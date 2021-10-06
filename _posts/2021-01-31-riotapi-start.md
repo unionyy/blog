@@ -11,6 +11,9 @@ tags:
 permalink: /lol/riot-api/
 ---
 ---
+{% include ad-contents.html %}
+
+
 리그오브레전드를 해봤다면 OP.GG, YOUR.GG 등 전적검색 사이트를 이용해본 경험이 있을 겁니다. 전적검색 사이트들은 Riot에서 제공하는 Riot API를 이용하여 유저들의 정보를 가져옵니다.
 
 Riot API를 이용해서 저만의 롤 전적검색 사이트를 만들어 보려합니다.
@@ -18,7 +21,6 @@ Riot API를 이용해서 저만의 롤 전적검색 사이트를 만들어 보�
 이 포스팅에서는 Riot API의 기본적인 사용법을 살펴보고 간단히 테스트해보도록 하겠습니다.
 
 <!--more-->
-{% include ad-contents.html %}
 
 ## 계정생성
 [라이엇 개발자 페이지](https://developer.riotgames.com/){:target="_blank"}에 접속하여 본인의 롤 계정으로 로그인하거나 새 계저을 만들어줍니다.
