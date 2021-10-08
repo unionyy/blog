@@ -26,10 +26,11 @@ Match-V4 에서 Match-V5 로 넘어가면서 gameDuration의 계산 방식이 �
 ## gameDuration 계산 방식
 
 ### 1. Match-V4, 11.20 이후의 Match-V5
+
 게임에 참여한 플레이어들 중에서 가장 오랜 시간동안 게임을 플레이한 유저의 게임 플레이 시간이 gameDuration 이 됩니다. (초 단위의 값입니다)
 
 ### 2. 11.20 이전의 Match-V5
-**gameEndTimestamp - gameStartTimestamp**
+**gameEndTimestamp - gameStartTimestamp**: 
 gameEndTimestamp 는 라이엇 서버에서 게임이 종료되었다고 판단되는 시간입니다. gameStartTimestamp 는 게임이 시작된 시간 입니다. (밀리초 단위의 값입니다)
 
 {% include ad-contents.html %}
