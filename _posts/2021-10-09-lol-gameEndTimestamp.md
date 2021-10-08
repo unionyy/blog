@@ -53,6 +53,6 @@ if(!data.info.gameEndTimestamp) data.info.gameDuration /= 1000;
 ```
 
 ## Reference
-* [MATCH-V%](https://developer.riotgames.com/apis#match-v5/GET_getMatch){:target="_blank"}
+* [MATCH-V5](https://developer.riotgames.com/apis#match-v5/GET_getMatch){:target="_blank"}
 
 {% include ad-contents.html %}
