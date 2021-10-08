@@ -21,7 +21,7 @@ Match-V4 에서 Match-V5 로 넘어가면서 gameDuration(게임 길이) 값이 
 ## Riot API Match-V5 의 공식 안내
 ![new info](/assets/post-images/lol-game-duration/new-info.png)
 
-의도였는지 실수였는지 모르겠지만, Match-V4 에서 Match-V5 로 넘어가면서 gameDuration의 계산 방식이 바뀌었었나봅니다. 이번 11.20 패치 이후부터는 다시 이전의 방식으로 돌아가게 되었습니다.
+Match-V4 에서 Match-V5 로 넘어가면서 gameDuration의 계산 방식이 바뀌었었나봅니다. 이번 11.20 패치 이후부터는 다시 이전의 방식으로 돌아가게 되었습니다.
 
 ## gameDuration 계산 방식
 
