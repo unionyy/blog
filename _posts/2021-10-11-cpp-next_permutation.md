@@ -2,7 +2,7 @@
 title: "[C++ STL] 순열과 조합 (next_permutation)"
 excerpt: next_permutation 함수는 위와 같이 사용하고 파라미터로 보내진 Iterator 범위 내의 원소들을 다음 경우의 수 배열로 만들어 줍니다. 이 때, 오름차순에서 내림차순으로 가는 경우의 수를 고려합니다. 즉, 오름차순으로 정렬된 배열에 next_permutation 을 계속 사용하면 모든 경우의 수를 거쳐 결국 내림차순으로 정렬됩니다.
 layout: single
-date: 2021-10-11T12:05:30+09:00
+date: 2021-10-11T00:05:30+09:00
 categories:
   - C++
 tags:
