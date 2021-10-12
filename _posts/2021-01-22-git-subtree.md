@@ -13,8 +13,6 @@ permalink: /github/subtree/
 ---
 ---
 
-{% include ad-contents.html %}
-
 `git subtree add`를 이용하면,
 
 하나의 repository 안에 다른 repository를 그대로 복사해올 수 있습니다.
