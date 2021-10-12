@@ -437,7 +437,7 @@ body:hover .visually-hidden button {
     position: sticky;
     top: 2em;
 
-    > * {
+    > *:not(script) {
       display: block;
     }
   }
