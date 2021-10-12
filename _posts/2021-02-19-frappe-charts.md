@@ -12,8 +12,6 @@ permalink: /js/frappe-charts/
 ---
 ---
 
-{% include ad-contents.html %}
-
 
 [Frappe Charts](https://frappe.io/charts){:target="_blank"}는 SVG 차트를 쉽게 만들게 해주는 오픈소스 모듈입니다. 여러가지 종류의 깔끔한 그래프들을 간편하게 만들 수 있습니다.
 <!--more-->
@@ -245,8 +243,6 @@ Frappe Charts는 히트맵 그래프 기능을 제공합니다. 이를 이용하
     </body>
 </html>
 ```
-
-{% include ad-contents.html %}
 
 ## Reference
 * [Frappe Charts - Docs](https://frappe.io/charts/docs){:target="_blank"}

@@ -11,7 +11,6 @@ tags:
 permalink: /vscode/shortcuts/
 ---
 ---
-{% include ad-contents.html %}
 
 VS Code 에서 제가 많이 사용하는 단축키들입니다.
 <!--more-->
@@ -97,5 +96,3 @@ Activity Bar는 왼쪽 끝의 아이콘 패널입니다. Minimap은 오른쪽 �
 
 ## Reference
 * [Visual Studio Code에서 Markdown(.md) 미리보기](/vscode/markdown/){:target="_blank"}
-
-{% include ad-contents.html %}

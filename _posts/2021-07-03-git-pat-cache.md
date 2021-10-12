@@ -14,7 +14,6 @@ tags:
 permalink: /github/pat-cache/
 ---
 ---
-{% include ad-contents.html %}
 
 AWS EC2 Linux 서버에서 GitHub id, password를 사용하여 `git pull`을 할 때마다 `[GitHub] Deprecation Notice`라는 제목의 메일이 왔습니다. id와 password를 통해 깃허브에 접근하는 것이 보안상의 이유로 곧 사용할 수 없게 될 것이라는 내용의 메일이었습니다. 그래서 서버에서 사용할 전용 Personal Access Token을 발급하고 이를 매번 입력할 필요가 없도록 캐싱해주었습니다.
 <!--more-->
@@ -45,5 +44,3 @@ $ git config --global credential.helper 'cache --timeout=3600'
 * [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token){:target="_blank"}
 
 * [Caching your GitHub credentials in Git](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git){:target="_blank"}
-
-{% include ad-contents.html %}

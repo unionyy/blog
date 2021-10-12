@@ -13,8 +13,6 @@ tags:
 permalink: /blog/redirect/
 ---
 ---
-{% include ad-contents.html %}
-
 
 제 [블로그](https://blog.uniony.me/){:target="_blank"}는 Jekyll과 GitHub Page 로 구현되어 있습니다. Jekyll의 기본설정에 따라, 포스트의 url이 `/카테고리/타이틀`로 설정 되어있었습니다. 이게 맘에 들지않아 url을 제 임의로 수정하고 기존의 url이 404 not found를 띄우지 않도록 Redirect했습니다.
 
@@ -102,5 +100,3 @@ redirect_to:  /vscode/markdown/
 * [How to redirect URLs on Jekyll site hosted on GitHub Pages](https://superdevresources.com/redirects-jekyll-github-pages/){:target="_blank"}
 * [What is the best approach for redirection of old pages in Jekyll and GitHub Pages?](https://stackoverflow.com/questions/10178304/what-is-the-best-approach-for-redirection-of-old-pages-in-jekyll-and-github-page){:target="_blank"}
 * [Google Warning: Using The Meta Refresh Tag Is Bad Practice](https://www.weboptimizers.com.au/google-warning-meta-refresh/){:target="_blank"}
-
-{% include ad-contents.html %}

@@ -10,7 +10,6 @@ tags:
 permalink: /nodejs/crawler/
 ---
 ---
-{% include ad-contents.html %}
 
 Node.js를 이용하면 웹 크롤링을 간편하게 해볼 수 있습니다.
 
@@ -161,8 +160,6 @@ var c = new Crawler({
 // Queue just one URL, with default callback
 c.queue('http://www.naver.com');
 ```
-
-{% include ad-contents.html %}
 
 ## Reference
 * [crawler](https://www.npmjs.com/package/crawler){:target="_blank"}

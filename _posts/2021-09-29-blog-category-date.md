@@ -12,7 +12,6 @@ tags:
 permalink: /blog/category-date/
 ---
 ---
-{% include ad-contents.html %}
 
 지난번 포스트에서 만들었던 '이 카테고리의 다른 글'에 날짜를 추가하고 손가락 이모티콘을 사용하여 가독성을 높혔습니다.
 <!--more-->
@@ -104,5 +103,3 @@ white-space:nowrap; 이 코드는 줄바꿈이 일어나서 날짜가 잘리는 
 ## Reference
 * [[HTML/CSS] 들여쓰기 및 내어쓰기 방법](https://angelplayer.tistory.com/130){:target="_blank"}
 * [CSS 줄바꿈 금지 - white-space:nowrap;](http://superkts.pe.kr/helper/view.php?seq=V&seq=390){:target="_blank"}
-
-{% include ad-contents.html %}

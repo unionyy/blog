@@ -11,7 +11,6 @@ tags:
 permalink: /lol/game-duration/
 ---
 ---
-{% include ad-contents.html %}
 
 Match-V4 에서 Match-V5 로 넘어가면서 gameDuration(게임 길이) 값이 초단위에서 밀리초단위로 변경되었습니다.
 
@@ -54,5 +53,3 @@ if(!data.info.gameEndTimestamp) data.info.gameDuration /= 1000;
 
 ## Reference
 * [MATCH-V5](https://developer.riotgames.com/apis#match-v5/GET_getMatch){:target="_blank"}
-
-{% include ad-contents.html %}

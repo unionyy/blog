@@ -11,7 +11,6 @@ tags:
 permalink: /lol/riot-api/
 ---
 ---
-{% include ad-contents.html %}
 
 
 리그오브레전드를 해봤다면 OP.GG, YOUR.GG 등 전적검색 사이트를 이용해본 경험이 있을 겁니다. 전적검색 사이트들은 Riot에서 제공하는 Riot API를 이용하여 유저들의 정보를 가져옵니다.
@@ -83,5 +82,3 @@ RESULT BODY 탭에서 API의 응답을 확인할 수 있습니다.
 ## Reference
 * [DEVELOPER-RIOTGAMES](https://developer.riotgames.com/){:target="_blank"}
 * [PUUIDs and Other IDs](https://riot-api-libraries.readthedocs.io/en/latest/ids.html){:target="_blank"}
-
-{% include ad-contents.html %}

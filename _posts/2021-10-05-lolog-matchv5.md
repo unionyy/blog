@@ -12,7 +12,6 @@ tags:
 permalink: /lol/lolog-matchv5/
 ---
 ---
-{% include ad-contents.html %}
 
 Riot API 의 Match-V4 지원이 종료되었습니다. 그래서 [LoLog.me](https://lolog.me/){:target="_blank"} 서버를 Match-V5 에 맞게 업데이트했습니다.
 
@@ -65,5 +64,3 @@ Match-V4 에서는 유저의 간단한 게임 로그를 최대 100개씩 가져�
 * 코드 구조 개선 작업 지속
 * 큐 타입별 검색 기능 구현
 * 웹 디자인 개선 (어둡게)
-
-{% include ad-contents.html %}

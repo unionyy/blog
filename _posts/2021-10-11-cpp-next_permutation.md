@@ -11,7 +11,6 @@ tags:
 permalink: /cpp/next_permutation/
 ---
 ---
-{% include ad-contents.html %}
 
 코딩테스트를 보는 도중에 순열을 만들어야하는 상황이 있었습니다. 시간은 15분이 남아있었고, **next_permutation** 함수 사용법이 정확히 기억나지 않았습니다. (어느 라이브러리에 있는지 생각이 나지 않았습니다 ㅠ)
 
@@ -137,5 +136,3 @@ int main()
 
 ## Reference
 * [std::next_permutation](https://en.cppreference.com/w/cpp/algorithm/next_permutation){:target="_blank"}
-
-{% include ad-contents.html %}

@@ -11,7 +11,6 @@ tags:
 permalink: /mysql/size/
 ---
 ---
-{% include ad-contents.html %}
 
 
 MySQL의 기본 데이터베이스인, [INFORMATION_SCHEMA](https://dev.mysql.com/doc/refman/8.0/en/information-schema.html){:target="_blank"} 의 [TABLES](https://dev.mysql.com/doc/refman/8.0/en/information-schema-tables-table.html){:target="_blank"} 테이블에는 각각의 테이블에 대한 정보가 들어있습니다. SELECT 문으로 필요한 정보만 가져와보도록 하겠습니다.
@@ -54,8 +53,6 @@ FROM 데이터베이스이름.테이블이름 /* 데이터를 가져올 테이�
 WHERE 데이터 = 값     /* 조건문 (일치하는 데이터 가져옴) */
 ORDER BY 데이터 DESC  /* 데이터 순서로 정렬 (DESC는 내림차순) */
 ```
-
-{% include ad-contents.html %}
 
 ## Reference
 * [MySQL 테이블 및 데이타베이스 크기 알아내기](https://www.lesstif.com/dbms/mysql-17105786.html){:target="_blank"}

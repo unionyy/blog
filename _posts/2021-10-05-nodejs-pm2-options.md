@@ -11,7 +11,6 @@ tags:
 permalink: /nodejs/pm2-options/
 ---
 ---
-{% include ad-contents.html %}
 
 [앵무새봇](https://koreanbots.dev/bots/795333228662751253){:target="_blank"}을 배포할 때 사용하는 PM2 옵션입니다.
 
@@ -40,5 +39,3 @@ $ pm2 start parrot-bot.js --time --name parrot0 -- 0 2 --max-memory-restart 800M
 ## Reference
 * [PM2 Process Management Quick Start](https://pm2.keymetrics.io/docs/usage/quick-start/){:target="_blank"}
 * [process.argv](https://nodejs.org/docs/latest/api/process.html#process_process_argv){:target="_blank"}
-
-{% include ad-contents.html %}

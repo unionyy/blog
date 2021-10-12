@@ -13,8 +13,6 @@ permalink: /mysql/insert-multi/
 ---
 ---
 
-{% include ad-contents.html %}
-
 
 MySQL에서 여러개의 INSERT 쿼리를 통합시켜 하나의 쿼리문으로 만들면 성능이 대폭 향상됩니다. (하나의 table에 대한 쿼리문일 경우)
 <!--more-->
@@ -54,8 +52,6 @@ INSERT 쿼리를 게임 단위에서 Riot API 단위(최대 100경기) 로 변�
 
 ## Reference
 * [13.2.6 INSERT Statement](https://dev.mysql.com/doc/refman/8.0/en/insert.html){:target="_blank"}
-
-{% include ad-contents.html %}
 
 ---
 ## 추가1

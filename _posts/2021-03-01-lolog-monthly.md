@@ -12,7 +12,6 @@ tags:
 permalink: /lol/lolog-monthly/
 ---
 ---
-{% include ad-contents.html %}
 
 
 [LoLog.me](https://lolog.me/){:target="_blank"} 사이트를 제대로 만들어 보겠다는 [포스트](/lol/lolog-me){:target="_blank"}를 업로드한 후로 딱 한달이 지났습니다. 그동안 업데이트한 내용들을 정리해볼까 합니다.
@@ -166,5 +165,3 @@ MySQL 관련 포스트
 * [Favicon Generator](https://realfavicongenerator.net/){:target="blank"}
 
 * [i18n](https://www.npmjs.com/package/i18n){:target="_blank"}
-
-{% include ad-contents.html %}

@@ -12,7 +12,6 @@ tags:
 permalink: /blog/category/
 ---
 ---
-{% include ad-contents.html %}
 
 방문자들이 관련 포스트를 쉽게 찾아갈 수 있도록 '이 카테고리의 다른 글' 링크를 만들었습니다.
 
@@ -141,5 +140,3 @@ _archive.scss 파일에 highlight__item 을 강조하는 코드를 추가합니�
 
 ## Reference
 * [Liquid](https://shopify.github.io/liquid/){:target="_blank"}
-
-{% include ad-contents.html %}

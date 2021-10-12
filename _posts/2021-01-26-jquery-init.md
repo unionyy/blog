@@ -11,7 +11,6 @@ tags:
 permalink: /js/jquery-cdn/
 ---
 ---
-{% include ad-contents.html %}
 
 
 여러 회사에서 제공하는 jQuery CDN을 이용하면 jQuery를 쉽고 빠르게 이용할 수 있습니다.
@@ -55,5 +54,3 @@ StackPath에서 제공하는 jQuery 공식 CDN이나 구글 등의 다른 회사
 ## Reference
 * [Downloading jQuery](https://jquery.com/download/){:target="_blank"}
 * [What is a CDN?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/){:target="_blank"}
-
-{% include ad-contents.html %}

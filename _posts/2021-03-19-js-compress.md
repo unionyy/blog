@@ -10,7 +10,6 @@ tags:
 permalink: /js/compress/
 ---
 ---
-{% include ad-contents.html %}
 
 
 자바스크립트 코드는 서버에서 통채로 전송되어 브라우저에서 실행되므로 코드 자체의 크기를 줄이면 로딩속도를 향상시킬 수 있습니다.
@@ -53,8 +52,6 @@ VS Code와 같은 에디터를 사용할 경우, 세미콜론이 빠진 부분(�
 
 * 복구된 화면
 ![Origin](/assets/post-images/js-compress/origin.png)
-
-{% include ad-contents.html %}
 
 ## 결과
 ![befor after](/assets/post-images/js-compress/before-after.png)

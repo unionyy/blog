@@ -12,7 +12,6 @@ tags:
 permalink: /blender/lowpoly-tree/
 ---
 ---
-{% include ad-contents.html %}
 
 블랜더로 모델링하고 렌더링한 로우폴리 나무입니다. 튜토리얼을 따라가니 첫작품 치고 꽤나 만족스러운 결과가 나왔습니다.
 <!--more-->
@@ -38,8 +37,6 @@ permalink: /blender/lowpoly-tree/
 ![Lowpoly Tree 4](/assets/post-images/lowpoly-tree/lowpoly-tree4.png)
 
 색상을 변경하여 벚꽃과 단풍나무를 만들어 보았습니다.
-
-{% include ad-contents.html %}
 
 ## Reference
 * [블렌더 강좌 \| 로우폴리 나무 이 영상 하나로 완전정복 \| Blender 2.8x](https://youtu.be/Cbio1Ec2SoU){:target="_blank"}

@@ -12,7 +12,6 @@ tags:
 permalink: /lol/production-key/
 ---
 ---
-{% include ad-contents.html %}
 
 
 Riot API로 공개서비스를 제공하기 위해서는 제품을 등록하고, Production API Key를 발급받아야 합니다. 
@@ -77,5 +76,3 @@ PRODUCTION API KEY를 선택한 경우, 접근 가능하고 본인이 관리할 
 * [DEVELOPER-RIOTGAMES](https://developer.riotgames.com/){:target="_blank"}
 * [LoLog.me - 롤 전적검색 사이트](/lol/lolog-me/){:target="_blank"}
 * [Riot API 사용법 - 계정 생성 & 소환사 정보 가져오기](/lol/riot-api/){:target="_blank"}
-
-{% include ad-contents.html %}

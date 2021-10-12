@@ -14,8 +14,6 @@ permalink: /nodejs/helmet/
 ---
 ---
 
-{% include ad-contents.html %}
-
 
 Express로 만들어진 웹 사이트의 보안을 강화하기 위해 [Helmet](https://helmetjs.github.io/){:target="_blank"} 미들웨어를 사용합니다.
 <!--more-->
@@ -197,8 +195,6 @@ app.use(helmet({
   contentSecurityPolicy: cspOptions,
 }));
 ```
-
-{% include ad-contents.html %}
 
 ## Reference
 * [Helmet](https://helmetjs.github.io/){:target="_blank"}

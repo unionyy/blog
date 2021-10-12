@@ -11,7 +11,6 @@ tags:
 permalink: /nodejs/pm2-config/
 ---
 ---
-{% include ad-contents.html %}
 
 PM2를 사용할 때에 Configuration File 을 생성해놓으면 여러 프로세스들을 한번에 실행할 수 있고, 옵션도 편리하게 추가할 수 있습니다.
 
@@ -69,5 +68,3 @@ $ pm2 delete ecosystem.config.js
 
 ## Reference
 * [Configuration File](https://pm2.keymetrics.io/docs/usage/application-declaration/){:target="_blank"}
-
-{% include ad-contents.html %}

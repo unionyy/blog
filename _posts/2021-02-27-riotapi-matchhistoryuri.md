@@ -13,8 +13,6 @@ permalink: /lol/riot-matchhistoryuri/
 ---
 ---
 
-{% include ad-contents.html %}
-
 
 Riot API의 Match-V4의 리턴값 중에서 PlayerDto 안에 'matchHistoryUri'라는 값이 있습니다. 이 값을 어디에 사용할 수 있을까요?
 
@@ -68,8 +66,6 @@ Riot API의 Match-V4의 리턴값 중에서 PlayerDto 안에 'matchHistoryUri'�
 전적 10개를 한번에 가져오는 기능은 현재 Match-V4 API에서 제공하지 않습니다. 여러개의 전적 데이터를 가져오기 위해서는 Match-V4 API를 여러번 동시에 호출하는 것이 현재로써는 최선의 방법으로 보여집니다.
 
 [LoLog.me](https://lolog.me/){:target="_blank"}에서는 현재 개별 매치 데이터를 제공하고 있지 않습니다. (라이엇 공식 사이트로 연결해줍니다.) 하루빨리 개별 전적 데이터 제공 및 저장 기능을 구현해야겠습니다. (데이터가 워낙 많아 API와 DB를 적절히 활용하는 최적의 방법을 찾아야 합니다..!)
-
-{% include ad-contents.html %}
 
 ## Reference
 * [DEVELOPER-RIOTGAMES](https://developer.riotgames.com/){:target="_blank"}

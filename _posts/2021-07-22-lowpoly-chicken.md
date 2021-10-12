@@ -12,7 +12,6 @@ tags:
 permalink: /blender/lowpoly-chicken/
 ---
 ---
-{% include ad-contents.html %}
 
 블랜더로 모델링하고 렌더링한 로우폴리 치킨입니다. 이번에도 유튜버 [까망고니](https://www.youtube.com/channel/UC0_NSkjGfkc1x2TLsQrz1Kg){:target="_blank"}님의 튜토리얼 영상을 참고하였습니다.
 <!--more-->
@@ -47,8 +46,6 @@ permalink: /blender/lowpoly-chicken/
 <br>
 
 튜토리얼 진행중 치킨 낙하 장면
-
-{% include ad-contents.html %}
 
 ## Reference
 * [블렌더 강좌 \| 로우폴리 치킨 이 영상 하나로 완전정복 \| Blender 2.8x](https://youtu.be/vbvJzyHrOUw){:target="_blank"}

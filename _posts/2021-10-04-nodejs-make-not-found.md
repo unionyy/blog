@@ -11,7 +11,6 @@ tags:
 permalink: /nodejs/make-not-found/
 ---
 ---
-{% include ad-contents.html %}
 
 [앵무새봇](https://koreanbots.dev/bots/795333228662751253){:target="_blank"}의 서버를 증설하기 위해 새로운 AWS EC2 인스턴스를 생성하였습니다.
 
@@ -29,5 +28,3 @@ $ sudo apt-get install build-essential
 ## Reference
 * [npm failed to install time with make not found error](https://stackoverflow.com/questions/14772508/npm-failed-to-install-time-with-make-not-found-error){:target="_blank"}
 * [자습서: Amazon EC2 인스턴스에서 Node.js 설정](https://docs.aws.amazon.com/ko_kr/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html){:target="_blank"}
-
-{% include ad-contents.html %}

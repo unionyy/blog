@@ -60,5 +60,3 @@ repository를 복사할 때 만들어진 commit 하나만 보여집니다.
 ## Reference
 * [Git Repository 합치기 (commit log 유지) - subtree 이용](http://yeoseon.kr/git-repository-habcigi-commit-log-yuji-subtree-iyong/){:target="_blank"}
 * [Git subtree: the alternative to Git submodule](https://www.atlassian.com/git/tutorials/git-subtree){:target="_blank"}
-
-{% include ad-contents.html %}

@@ -12,7 +12,6 @@ tags:
 permalink: /kakao/taxi/
 ---
 ---
-{% include ad-contents.html %}
 
 ## 문제
 
@@ -103,5 +102,3 @@ int solution(int n, int s, int a, int b, vector<vector<int>> fares) {
 ## Reference
 
 * [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413){:target="_blank"}
-
-{% include ad-contents.html %}

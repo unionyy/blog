@@ -13,7 +13,6 @@ tags:
 permalink: /lol/lol-discord/
 ---
 ---
-{% include ad-contents.html %}
 
 [LoL Discord](https://www.npmjs.com/package/lol-discord){:target="_blank"}
 
@@ -40,5 +39,3 @@ Node.js기반 디스코드 봇을 위한 롤 전적 검색 모듈을 배포하�
 
 ## NPM 배포시 참고한 링크
 * [내 NPM 패키지(모듈) 배포하기](https://heropy.blog/2019/01/31/node-js-npm-module-publish//){:target="_blank"}
-
-{% include ad-contents.html %}

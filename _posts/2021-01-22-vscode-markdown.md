@@ -11,7 +11,6 @@ tags:
 permalink: /vscode/markdown/
 ---
 ---
-{% include ad-contents.html %}
 
 GitHub에 REAMDME 파일을 작성할 때
 
@@ -46,5 +45,3 @@ GitHub Style Mardown 미리보기 적용 완료.
 * [Visual Studio Code 에서 깃헙 스타일 마크다운 사용하기](https://blog.aliencube.org/ko/2016/07/06/markdown-in-visual-studio-code/){:target="_blank"}
 * [Could not load 'markdown.styles': *.css](https://github.com/microsoft/vscode/issues/77290){:target="_blank"}
 * [GitHub/aliencube/markdownpad-github](https://github.com/aliencube/markdownpad-github){:target="_blank"}
-
-{% include ad-contents.html %}
