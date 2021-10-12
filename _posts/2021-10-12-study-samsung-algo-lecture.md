@@ -12,7 +12,7 @@ tags:
 permalink: /study/algorithm2021/
 ---
 ---
-{% include ad-contents.html %}
+{% include ad-top.html %}
 
 2021.07.19 ~ 2021.08.27 6주간 삼성전자 하계 알고리즘 역량강화 특강에 참여하고 수료하였습니다. 이 과정은 삼성전자 SW 역량테스트 B형(Pro) 를 취득하는 것을 목표로 구성된 프로그램입니다. 교육 기간이 종료된 이후에 SW 역량테스트 B형에 응시할 수 있는 기회가 제공됩니다.
 
