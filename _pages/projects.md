@@ -1,6 +1,7 @@
 ---
 permalink: /projects/
 title: "Projects"
+layout: projects
 ---
 
 ## [LoLog.me](https://LoLog.me){:target="_blank"} - 리그오브레전드 전적검색 사이트
