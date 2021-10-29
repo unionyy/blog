@@ -1,5 +1,5 @@
 ---
-title: "삼성전자 SW 역량테스트 B형 후기 1"
+title: "삼성전자 SW 역량테스트 B형 후기 1 (준비)"
 excerpt_separator: "<!--more-->"
 layout: single
 date: 2021-10-25T16:05:30+09:00
