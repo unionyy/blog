@@ -2,7 +2,7 @@
 title: "오징어 게임 징검다리 건너기 참가자별 성공 확률 2 (파이썬 테스트)"
 excerpt_separator: "<!--more-->"
 layout: single
-date: 2021-11-14T17:08:30+09:00
+date: 2021-11-17T00:50:30+09:00
 categories:
   - Life
 tags:
