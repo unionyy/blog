@@ -1,8 +1,12 @@
 <!-- start custom head snippets -->
 
 <!-- Google Adsense Code -->
+{% if jekyll.environment == 'production' %}
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6916694174053190"
      crossorigin="anonymous"></script>
+
+{% endif %}
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
