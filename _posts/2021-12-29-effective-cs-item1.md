@@ -32,7 +32,7 @@ var uniony = new { team = "AppDev", age = "26" };
 익명 타입의 오브젝트를 생성하기 위해서는 var를 사용해야한다.
 익명 타입을 사용함으로써 한번만 사용할 객체를 명시적으로 정의할 필요 없이 생성할 수 있다.
 
-참고: [Anonymous Types](https://docs.microsoft.com/ko-kr/dotnet/csharp/fundamentals/types/anonymous-types){:target="_blank"}
+* 참고: [Anonymous Types](https://docs.microsoft.com/ko-kr/dotnet/csharp/fundamentals/types/anonymous-types){:target="_blank"}
 
 ## 다형성 문제
 C# 부모 클래스로의 암시적 형변환이 허용되는 등의 다형성을 지원한다.
@@ -58,7 +58,7 @@ LINQ 쿼리는 IEnumerable<T> 를 반환하기도 하고, IQueryable<T> 를 반�
 IQueryable<T> 가 IEnumerable<T> 를 상속하므로 명시적 선언을 사용했을 경우, 의도치 않은 형변환이 일어날 수 있다.
 
 ## Reference
-* var - https://docs.microsoft.com/ko-kr/dotnet/csharp/language-reference/keywords/var
-* 암시적 형식 지역 변수 - https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables
-* LINQ 쿼리 작업의 형식 관계 - https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/concepts/linq/type-relationships-in-linq-query-operations
-* Anonymous Types - https://docs.microsoft.com/ko-kr/dotnet/csharp/fundamentals/types/anonymous-types
+* [var](https://docs.microsoft.com/ko-kr/dotnet/csharp/language-reference/keywords/var){:target="_blank"}
+* [암시적 형식 지역 변수](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables){:target="_blank"}
+* [LINQ 쿼리 작업의 형식 관계](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/concepts/linq/type-relationships-in-linq-query-operations){:target="_blank"}
+* [Anonymous Types](https://docs.microsoft.com/ko-kr/dotnet/csharp/fundamentals/types/anonymous-types){:target="_blank"}
