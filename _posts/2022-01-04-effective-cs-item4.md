@@ -2,7 +2,7 @@
 title: "[Effective C#] 아이템 4: string.Format()을 보간 문열로 대체하라"
 excerpt_separator: "<!--more-->"
 layout: single
-date: 2021-01-04T09:40:30+09:00
+date: 2022-01-04T09:40:30+09:00
 categories:
   - C#
 tags:

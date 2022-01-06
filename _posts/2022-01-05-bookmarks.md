@@ -2,7 +2,7 @@
 title: "북마크 아카이빙"
 excerpt_separator: "<!--more-->"
 layout: single
-date: 2021-01-05T21:40:30+09:00
+date: 2022-01-05T21:40:30+09:00
 categories:
   - Life
 tags:
