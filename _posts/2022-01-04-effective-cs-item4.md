@@ -41,7 +41,7 @@ Effective C# 3판에서는 보간 문자열을 사용하면 object 타입으로�
 
 이는 C# 10.0 이전 까지는 맞는 말이다.
 
-C# 10.0 부터는 DefaultInterpolatedStringHandler 형식이 추가되어, StringBuilder 형식으로 문자열이 생성된다.(https://devblogs.microsoft.com/dotnet/string-interpolation-in-c-10-and-net-6/)
+C# 10.0 부터는 DefaultInterpolatedStringHandler 형식이 추가되어, StringBuilder 형식으로 문자열이 생성된다.([https://devblogs.microsoft.com/dotnet/string-interpolation-in-c-10-and-net-6/])
 
 때문에 이제 보간 문자열은 string.Format() 보다 뛰어난 성능을 보여준다.
 
@@ -58,5 +58,5 @@ C# 10.0 부터는 DefaultInterpolatedStringHandler 형식이 추가되어, Strin
 ## Reference
 * [문자열 보간](https://docs.microsoft.com/ko-kr/dotnet/csharp/tutorials/string-interpolation){:target="_blank"}
 * [String Interpolation in C# 10 and .Net 6](https://devblogs.microsoft.com/dotnet/string-interpolation-in-c-10-and-net-6/){:target="_blank"}
-* [Boxing 및 Unboxing](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/types/boxing-and-unboxing)){:target="_blank"}
+* [Boxing 및 Unboxing](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/types/boxing-and-unboxing){:target="_blank"}
 * [성능](https://docs.microsoft.com/ko-kr/dotnet/framework/performance/performance-tips){:target="_blank"}
