@@ -115,11 +115,8 @@ foreach()와 GetInvocationList()를 사용하여 각각의 메서드를 실행�
 Predicate<T>, Action<>, Func<> 와 같이 자주 사용되는 Delegate가 .NET Framework에 정의되어 있다.
 
 ## Reference
-[C# delegate 기초](https://www.csharpstudy.com/CSharp/CSharp-delegate-concept.aspx){:target="_blank"}
-
-[대리자 사용](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/delegates/using-delegates){:target="_blank"}
-
-[.NET 성능 팁](https://docs.microsoft.com/ko-kr/dotnet/framework/performance/performance-tips){:target="_blank"}
-
-[대리자를 선언, 인스턴스화, 사용하는 방법](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/delegates/how-to-declare-instantiate-and-use-a-delegate){:target="_blank"}
+* [C# delegate 기초](https://www.csharpstudy.com/CSharp/CSharp-delegate-concept.aspx){:target="_blank"}
+* [대리자 사용](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/delegates/using-delegates){:target="_blank"}
+* [.NET 성능 팁](https://docs.microsoft.com/ko-kr/dotnet/framework/performance/performance-tips){:target="_blank"}
+* [대리자를 선언, 인스턴스화, 사용하는 방법](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/delegates/how-to-declare-instantiate-and-use-a-delegate){:target="_blank"}
 
