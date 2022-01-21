@@ -2,13 +2,13 @@
 title: "[C#] Delegate, 익명 함수, 람다식, Closure"
 excerpt_separator: "<!--more-->"
 layout: single
-date: 2022-01-20T00:12:30+09:00
+date: 2022-01-22T00:40:30+09:00
 categories:
   - C#
 tags:
   - C#
   - Effective C#
-permalink: /effective-cs-item7/
+permalink: /cs-delegate/
 ---
 ---
 
