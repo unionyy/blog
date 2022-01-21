@@ -104,7 +104,7 @@ class Program
         }
     }
 ```
-![no-reference](/assets/post-images/cs-delegate/no-reference);
+![no-reference](/assets/post-images/cs-delegate/no-reference.png)
 중첩 클래스가 선언되고 일부 메서드와 필드가 static으로 선언된다.
 
 * 로컬 변수를 참조했을 때
@@ -126,7 +126,7 @@ class Program
         }
     }
 ```
-![local-variable](/assets/post-images/cs-delegate/local-variable);
+![local-variable](/assets/post-images/cs-delegate/local-variable.png)
 중첩 클래스가 선언되고 msg가 인스턴스 변수로 추가된다.
 
 * 멤버 변수를 참조했을 때
@@ -148,7 +148,7 @@ class Program
         }
     }
 ```
-![member-variable](/assets/post-images/cs-delegate/member-variable);
+![member-variable](/assets/post-images/cs-delegate/member-variable.png)
 중첩 클래스가 선언되지 않고 익명 함수가 인스턴스 메서드로 선언된다.
 
 ## Reference
