@@ -2,7 +2,7 @@
 title: "[Effective C#] 아이템 11: .NET 리소스 관리에 대한 이해"
 excerpt_separator: "<!--more-->"
 layout: single
-date: 2022-02-22T02:24:30+09:00
+date: 2022-02-21T02:24:30+09:00
 categories:
   - C#
 tags:
