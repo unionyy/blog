@@ -9,7 +9,6 @@ masthead_title            : "유년시절" # overrides the website title display
 subtitle                  : # site tagline that appears below site title in masthead
 name                      : "유년"
 title_separator           : "-"
-subtitle                  : # site tagline that appears below site title in masthead
 email                     : "kyh4323@gmail.com"
 description               : >- # this means to ignore newlines until "baseurl:"
   유년이의 블로그. Uniony's blog
@@ -99,7 +98,7 @@ author:
       url: "https://github.com/unionyy"
     - label: "yoonyeony"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/yoonyeony/"
+      url: "https://instagram.com/uniony.me/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:kyh4323@gmail.com"
