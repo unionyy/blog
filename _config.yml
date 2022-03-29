@@ -96,7 +96,7 @@ author:
     - label: "unionyy"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/unionyy"
-    - label: "yoonyeony"
+    - label: "uniony.me"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/uniony.me/"
     - label: "Email"
@@ -111,9 +111,9 @@ footer:
     - label: "unionyy"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/unionyy"
-    - label: "yoonyeony"
+    - label: "uniony.me"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/yoonyeony/"
+      url: "https://instagram.com/uniony.me/"
 
 defaults:
   # _posts
