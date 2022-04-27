@@ -57,6 +57,9 @@ public class DisposableTest : IDisposable
     }
 }
 ```
+
+{% include ad-contents.html %}
+
 ## 표준 Dispose 패턴 구현하는 방법
 
 ### 최상위 베이스 클래스

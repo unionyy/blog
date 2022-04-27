@@ -38,6 +38,7 @@ RaiseUpdates() 가 호출되어 Updated(this, counter); 이 호출되었을 때,
 
 Updated에 결합된 이벤트 핸들러가 없다면 NullReferenceException이 발생한다.
 
+{% include ad-contents.html %}
 
 ```cs
 public void RaiseUpdates()

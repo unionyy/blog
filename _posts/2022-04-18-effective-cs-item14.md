@@ -51,6 +51,8 @@ public class Item14
 ```
 생성자 4개를 만들었지만 하나의 생성자를 공용 생성자로 사용했다.
 
+{% include ad-contents.html %}
+
 ## 기본값을 갖는 매개변수를 취하는 생성자
 ```cs
 public class Item14_2
@@ -84,6 +86,8 @@ public class Item14_2
 * 매개변수 기본값은 컴파일 타임 상수만을 지정할 수 있다.
 * 타입을 사용하는 코드와의 결합도가 높아진다. (매개변수 이름, 기본값이 공개 인터페이스의 일부가 된다)
 
+
+{% include ad-contents.html %}
 
 ## Private 메서드를 사용할 경우
 ```cs
